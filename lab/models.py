@@ -17,4 +17,18 @@ class Project(models.Model):
     def __str__(self):
         return self.name
 
+class Sample(models.Model):
+    name = models.CharField(max_length=30)
+    description = models.TextField(max_length=300)
+    project = models.ForeignKey(Project)
+    sample_date = models.DateField()
+    people = models.ManyToManyField(User)
+    library_id = models.CharField(max_length=30)
+
+    def staff(self):
+        return ",".join([str(p) for p in self.people.all()])
+
+    def __str__(self):
+        return self.name
+
 
