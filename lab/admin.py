@@ -11,5 +11,11 @@ class ProjectAdmin(admin.ModelAdmin):
     search_fields = ['name','description']
 
 admin.site.register(Project,ProjectAdmin)
-admin.site.register(Sample)
+
+class SampleAdmin(admin.ModelAdmin):
+    
+    list_display = ('name','staff','sample_date','library')
+    list_filter = ['sample_date']
+    search_fields = ['name','description']
+admin.site.register(Sample,SampleAdmin)
 
