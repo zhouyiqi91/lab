@@ -13,14 +13,15 @@ class Employee(models.Model):
     type_choice =(
     ("lab","实验"),
     ("bioinfo","生信"),
-    ("administration","行政")
+    ("xingzheng","行政"),
+    ("manage","管理"),
     )
 
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     department = models.CharField(verbose_name="部门",max_length=30,choices=type_choice)
 
     def get_user_name(self):
-        return self.last_name+self.first_name
+        return self.last_name + self.first_name
 
     User.__unicode__ = get_user_name
 
@@ -53,10 +54,10 @@ class Project(models.Model):
     )
 
     name = models.CharField(max_length=30)
-    description = models.TextField(max_length=300,blank=True)
     project_type = models.CharField(max_length=2,choices=type_choice)
     project_date = models.DateField()
     people = models.ManyToManyField(Employee,limit_choices_to=Q(department="lab") | Q(department="bioinfo") )
+    description = models.TextField(max_length=300,blank=True)
 
     def staff(self):
         return ",".join([p.__str__() for p in self.people.all()])
@@ -67,15 +68,29 @@ class Project(models.Model):
 
 
 class Sample(models.Model):
+    library_type_choice = (
+    ("scope","scRNA-SCOPE"),
+    ("X10","scRNA-10X"),
+    ("RNA","RNA-Seq"),
+    ("WES","WES"),
+    )
 
+    species_choice = (
+    ("human","hm"),
+    ("mouse","mm"),
+    ("human_mouse","hm_mm"),
+    ("other","other"),
+        )
 
     name = models.CharField(max_length=30)
-    description = models.TextField(max_length=300,blank=True)
     project = models.ForeignKey(Project)
+    species = models.CharField(max_length=20,choices=species_choice)
     sample_date = models.DateField()
     #people= models.ManyToManyField(Employee,limit_choices_to=Q(department="lab") | Q(department="bioinfo") )
-    AATI = models.ImageField(upload_to="AATI",blank=True)
+    description = models.TextField(max_length=300,blank=True)
     library_id = models.CharField(max_length=30,blank=True)
+    library_type = models.CharField(max_length=20,blank=True,choices=library_type_choice)
+    AATI = models.ImageField(upload_to="AATI",blank=True)
     report = models.CharField(max_length=255,blank=True)
 
     def library(self):

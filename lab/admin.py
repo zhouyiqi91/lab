@@ -6,6 +6,9 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth.models import User
 from models import *
 
+def is_manage(user):
+    return user.groups.filter(name='manage').exists()
+
 # Define an inline admin descriptor for Employee model
 # which acts a bit like a singleton
 class EmployeeInline(admin.StackedInline):
@@ -29,8 +32,10 @@ class ProjectAdmin(admin.ModelAdmin):
     list_filter = ['project_date']
     search_fields = ['name','description']
 
+
+
     def get_queryset(self, request):
-        if request.user.is_superuser:
+        if request.user.is_superuser or is_manage(request.user) :
             return Project.objects.all()
         return Project.objects.filter(people__user=request.user)
 

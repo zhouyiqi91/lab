@@ -3304,3 +3304,927 @@ Not Found: /media/report/P2018009_lung/P2018009_lung.report.html
 [19/Dec/2018 14:03:28] "GET /admin/lab/sample/6/change/ HTTP/1.1" 200 8019
 [19/Dec/2018 14:03:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
 [19/Dec/2018 14:03:40] "GET /admin/lab/ HTTP/1.1" 200 2578
+[19/Dec/2018 14:06:44] "GET /admin/lab/ HTTP/1.1" 200 2578
+[19/Dec/2018 14:12:41] "GET /admin/ HTTP/1.1" 200 5620
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 13:49:45
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f1480be4f50>
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/models.py", line 84
+    library_type = 
+                  ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7f28a54cb410>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 405, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+lab.Sample.library_type: (fields.E005) 'choices' must be an iterable containing (actual value, human readable name) tuples.
+
+System check identified 1 issue (0 silenced).
+Unhandled exception in thread started by <function wrapper at 0x7f15d3d9f488>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 405, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+lab.Sample.library_type: (fields.E005) 'choices' must be an iterable containing (actual value, human readable name) tuples.
+
+System check identified 1 issue (0 silenced).
+Unhandled exception in thread started by <function wrapper at 0x7fdfb6a6b488>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 405, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+lab.Sample.library_type: (fields.E005) 'choices' must be an iterable containing (actual value, human readable name) tuples.
+
+System check identified 1 issue (0 silenced).
+Unhandled exception in thread started by <function wrapper at 0x7ffac0a21488>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 405, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+lab.Sample.library_type: (fields.E005) 'choices' must be an iterable containing (actual value, human readable name) tuples.
+
+System check identified 1 issue (0 silenced).
+[19/Dec/2018 14:23:33] "GET /admin/ HTTP/1.1" 200 5620
+[19/Dec/2018 14:23:35] "GET /admin/lab/project/ HTTP/1.1" 200 5641
+[19/Dec/2018 14:23:35] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:23:36] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 6747
+[19/Dec/2018 14:23:36] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:23:39] "GET /admin/lab/project/ HTTP/1.1" 200 5641
+[19/Dec/2018 14:23:41] "GET /admin/lab/ HTTP/1.1" 200 2578
+[19/Dec/2018 14:23:42] "GET /admin/lab/sample/ HTTP/1.1" 200 6439
+[19/Dec/2018 14:23:42] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:23:43] "GET /admin/lab/sample/6/change/ HTTP/1.1" 200 9359
+[19/Dec/2018 14:23:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 14:21:32
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[19/Dec/2018 14:25:19] "GET /admin/lab/sample/6/change/ HTTP/1.1" 200 9333
+[19/Dec/2018 14:25:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:25:39] "GET /admin/lab/sample/ HTTP/1.1" 200 6439
+[19/Dec/2018 14:25:39] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:25:47] "GET /admin/lab/ HTTP/1.1" 200 2578
+[19/Dec/2018 14:25:48] "GET /admin/lab/project/ HTTP/1.1" 200 5641
+[19/Dec/2018 14:25:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:25:53] "GET /admin/lab/ HTTP/1.1" 200 2578
+[19/Dec/2018 14:25:54] "GET /admin/lab/project/ HTTP/1.1" 200 5641
+[19/Dec/2018 14:25:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 14:25:10
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7faa6dbc90c8>
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/models.py", line 12, in <module>
+    class Employee(models.Model):
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/models.py", line 17, in Employee
+    ("manage","管理")
+TypeError: 'tuple' object is not callable
+[19/Dec/2018 14:28:20] "GET /admin/lab/ HTTP/1.1" 200 2578
+[19/Dec/2018 14:28:21] "GET /admin/lab/project/ HTTP/1.1" 200 5641
+[19/Dec/2018 14:28:21] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:28:23] "GET /admin/lab/ HTTP/1.1" 200 2578
+[19/Dec/2018 14:28:24] "GET /admin/lab/sample/ HTTP/1.1" 200 6439
+[19/Dec/2018 14:28:24] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:28:42] "GET /admin/lab/sample/7/change/ HTTP/1.1" 200 9047
+[19/Dec/2018 14:28:42] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:29:02] "GET /admin/ HTTP/1.1" 200 5620
+[19/Dec/2018 14:29:03] "GET /admin/lab/project/ HTTP/1.1" 200 5641
+[19/Dec/2018 14:29:03] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:29:18] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 6747
+[19/Dec/2018 14:29:18] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:30:14] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 6747
+[19/Dec/2018 14:30:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:30:16] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 6747
+[19/Dec/2018 14:30:16] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 14:27:59
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[19/Dec/2018 14:30:46] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 6747
+[19/Dec/2018 14:30:46] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:32:15] "GET /admin/lab/ HTTP/1.1" 200 2578
+[19/Dec/2018 14:32:16] "GET /admin/lab/sample/ HTTP/1.1" 200 6439
+[19/Dec/2018 14:32:16] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:32:17] "GET /admin/lab/sample/6/change/ HTTP/1.1" 200 9333
+[19/Dec/2018 14:32:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:54:33] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 14:54:33] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 14:54:37] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 14:54:37] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 14:54:37] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 14:54:45] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+[19/Dec/2018 14:54:49] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 14:54:49] "GET /admin/ HTTP/1.1" 200 6641
+[19/Dec/2018 14:54:52] "GET /admin/auth/user/ HTTP/1.1" 200 9238
+[19/Dec/2018 14:54:52] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:54:55] "GET /admin/auth/user/8/change/ HTTP/1.1" 200 17368
+[19/Dec/2018 14:54:55] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:55:03] "GET /admin/auth/user/ HTTP/1.1" 200 9238
+[19/Dec/2018 14:55:09] "GET /admin/auth/user/8/change/ HTTP/1.1" 200 17368
+[19/Dec/2018 14:55:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 14:55:14] "GET /admin/auth/user/8/delete/ HTTP/1.1" 200 2966
+[19/Dec/2018 14:55:16] "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+[19/Dec/2018 14:55:20] "POST /admin/auth/user/8/delete/ HTTP/1.1" 302 0
+[19/Dec/2018 14:55:21] "GET /admin/auth/user/ HTTP/1.1" 200 8948
+[19/Dec/2018 14:55:21] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:07:05] "GET /admin/auth/user/ HTTP/1.1" 200 9238
+[19/Dec/2018 15:07:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:07:07] "GET /admin/auth/user/9/change/ HTTP/1.1" 200 17266
+[19/Dec/2018 15:07:07] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:07:29] "GET /admin/auth/ HTTP/1.1" 200 2623
+[19/Dec/2018 15:07:31] "GET /admin/ HTTP/1.1" 200 6603
+[19/Dec/2018 15:07:35] "GET /admin/lab/project/ HTTP/1.1" 200 5639
+[19/Dec/2018 15:07:35] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:07:37] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 6745
+[19/Dec/2018 15:07:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:07:40] "GET /admin/lab/project/ HTTP/1.1" 200 5639
+[19/Dec/2018 15:07:42] "GET /admin/ HTTP/1.1" 200 6603
+[19/Dec/2018 15:08:51] "GET /admin/auth/user/ HTTP/1.1" 200 9238
+[19/Dec/2018 15:08:51] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:08:53] "GET /admin/auth/user/9/change/ HTTP/1.1" 200 17266
+[19/Dec/2018 15:08:53] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:08:56] "GET /admin/auth/user/9/delete/ HTTP/1.1" 200 3034
+[19/Dec/2018 15:09:01] "POST /admin/auth/user/9/delete/ HTTP/1.1" 302 0
+[19/Dec/2018 15:09:01] "GET /admin/auth/user/ HTTP/1.1" 200 8948
+[19/Dec/2018 15:09:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:09:04] "GET /admin/auth/user/2/change/ HTTP/1.1" 200 17481
+[19/Dec/2018 15:09:04] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:09:07] "GET /admin/auth/user/ HTTP/1.1" 200 8821
+[19/Dec/2018 15:09:13] "GET /admin/auth/user/ HTTP/1.1" 200 9234
+[19/Dec/2018 15:09:13] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:09:17] "GET /admin/ HTTP/1.1" 200 6553
+[19/Dec/2018 15:09:19] "GET /admin/lab/project/ HTTP/1.1" 200 5639
+[19/Dec/2018 15:09:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:09:19] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 6745
+[19/Dec/2018 15:09:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:09:22] "GET /admin/lab/project/ HTTP/1.1" 200 5639
+[19/Dec/2018 15:09:24] "GET /admin/ HTTP/1.1" 200 6553
+[19/Dec/2018 15:09:25] "GET /admin/lab/sample/ HTTP/1.1" 200 6437
+[19/Dec/2018 15:09:25] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:09:26] "GET /admin/lab/sample/6/change/ HTTP/1.1" 200 9331
+[19/Dec/2018 15:09:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:09:28] "GET /admin/lab/sample/ HTTP/1.1" 200 6437
+[19/Dec/2018 15:09:29] "GET /admin/ HTTP/1.1" 200 6553
+[19/Dec/2018 15:09:31] "GET /admin/lab/sample/add/ HTTP/1.1" 200 8809
+[19/Dec/2018 15:09:31] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:09:36] "GET /admin/ HTTP/1.1" 200 6553
+[19/Dec/2018 15:09:37] "GET /admin/lab/project/add/ HTTP/1.1" 200 6492
+[19/Dec/2018 15:09:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:10:50] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 15:10:51] "GET /admin/lab/sample/ HTTP/1.1" 200 6437
+[19/Dec/2018 15:10:51] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:11:01] "GET /admin/ HTTP/1.1" 200 6553
+[19/Dec/2018 15:11:02] "GET /admin/auth/user/ HTTP/1.1" 200 9234
+[19/Dec/2018 15:11:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:11:03] "GET /admin/auth/user/10/change/ HTTP/1.1" 200 17306
+[19/Dec/2018 15:11:04] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:11:07] "GET /admin/auth/user/10/delete/ HTTP/1.1" 200 3060
+[19/Dec/2018 15:11:09] "POST /admin/auth/user/10/delete/ HTTP/1.1" 302 0
+[19/Dec/2018 15:11:09] "GET /admin/auth/user/ HTTP/1.1" 200 8954
+[19/Dec/2018 15:11:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:12:19] "GET /admin/auth/user/ HTTP/1.1" 200 9234
+[19/Dec/2018 15:12:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:12:22] "GET /admin/auth/user/11/change/ HTTP/1.1" 200 17306
+[19/Dec/2018 15:12:22] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:12:42] "GET /admin/ HTTP/1.1" 200 6509
+[19/Dec/2018 15:12:43] "GET /admin/lab/sample/ HTTP/1.1" 200 6437
+[19/Dec/2018 15:12:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:12:45] "GET /admin/lab/sample/6/change/ HTTP/1.1" 200 9331
+[19/Dec/2018 15:12:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:12:48] "GET /admin/lab/sample/ HTTP/1.1" 200 6437
+[19/Dec/2018 15:12:50] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 15:12:51] "GET /admin/lab/project/ HTTP/1.1" 200 5639
+[19/Dec/2018 15:12:51] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:12:53] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 6745
+[19/Dec/2018 15:12:53] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:12:55] "GET /admin/lab/project/ HTTP/1.1" 200 5639
+[19/Dec/2018 15:12:56] "GET /admin/lab/project/add/ HTTP/1.1" 200 6492
+[19/Dec/2018 15:12:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:15:00] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 15:15:02] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:15:02] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 15:15:06] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+[19/Dec/2018 15:15:17] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+[19/Dec/2018 15:15:21] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+[19/Dec/2018 15:15:25] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+[19/Dec/2018 15:20:28] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+[19/Dec/2018 15:20:32] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:20:32] "GET /admin/ HTTP/1.1" 200 6509
+[19/Dec/2018 15:20:35] "GET /admin/auth/user/ HTTP/1.1" 200 9234
+[19/Dec/2018 15:20:35] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:20:37] "GET /admin/auth/user/11/change/ HTTP/1.1" 200 17306
+[19/Dec/2018 15:20:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:20:40] "GET /admin/auth/user/11/delete/ HTTP/1.1" 200 3060
+[19/Dec/2018 15:20:41] "POST /admin/auth/user/11/delete/ HTTP/1.1" 302 0
+[19/Dec/2018 15:20:41] "GET /admin/auth/user/ HTTP/1.1" 200 8954
+[19/Dec/2018 15:20:41] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:20:50] "GET /admin/auth/user/ HTTP/1.1" 200 9234
+[19/Dec/2018 15:20:50] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:20:58] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 15:20:58] "GET /admin/logout/ HTTP/1.1" 302 0
+[19/Dec/2018 15:20:58] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:20:58] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 15:21:03] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:21:03] "GET /admin/ HTTP/1.1" 200 1748
+[19/Dec/2018 15:21:18] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 15:21:19] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:21:20] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 15:21:25] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+[19/Dec/2018 15:21:35] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:21:35] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:21:35] "GET /admin/ HTTP/1.1" 200 6468
+[19/Dec/2018 15:21:38] "GET /admin/auth/user/ HTTP/1.1" 200 9234
+[19/Dec/2018 15:21:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:21:40] "GET /admin/auth/user/12/change/ HTTP/1.1" 200 17454
+[19/Dec/2018 15:21:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:22:05] "GET /admin/auth/user/ HTTP/1.1" 200 9234
+[19/Dec/2018 15:22:09] "GET /admin/auth/user/12/change/ HTTP/1.1" 200 17454
+[19/Dec/2018 15:22:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:22:20] "POST /admin/auth/user/12/change/ HTTP/1.1" 200 17615
+[19/Dec/2018 15:22:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:26:00] "POST /admin/auth/user/12/change/ HTTP/1.1" 200 17615
+[19/Dec/2018 15:26:00] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:26:04] "GET /admin/auth/user/12/delete/ HTTP/1.1" 200 3060
+[19/Dec/2018 15:26:12] "POST /admin/auth/user/12/delete/ HTTP/1.1" 302 0
+[19/Dec/2018 15:26:12] "POST /admin/auth/user/12/delete/ HTTP/1.1" 302 0
+[19/Dec/2018 15:26:12] "GET /admin/ HTTP/1.1" 200 6578
+[19/Dec/2018 15:26:13] "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+[19/Dec/2018 15:26:17] "GET /admin/ HTTP/1.1" 200 6427
+[19/Dec/2018 15:26:20] "GET /admin/auth/user/ HTTP/1.1" 200 9234
+[19/Dec/2018 15:26:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:26:21] "GET /admin/auth/user/13/change/ HTTP/1.1" 200 17431
+[19/Dec/2018 15:26:21] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:26:25] "GET /admin/auth/user/ HTTP/1.1" 200 9234
+[19/Dec/2018 15:27:51] "GET /admin/auth/user/13/change/ HTTP/1.1" 200 17431
+[19/Dec/2018 15:27:52] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:27:53] "GET /admin/auth/user/ HTTP/1.1" 200 9234
+[19/Dec/2018 15:27:55] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 15:27:56] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:27:56] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 15:28:03] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:28:03] "GET /admin/ HTTP/1.1" 200 1748
+[19/Dec/2018 15:28:07] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 15:28:08] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:28:08] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 15:28:16] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:28:16] "GET /admin/ HTTP/1.1" 200 6427
+[19/Dec/2018 15:28:17] "GET /admin/lab/project/ HTTP/1.1" 200 5639
+[19/Dec/2018 15:28:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:28:18] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 6783
+[19/Dec/2018 15:28:18] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:28:20] "GET /admin/lab/project/ HTTP/1.1" 200 5639
+[19/Dec/2018 15:35:05] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 15:35:05] "GET /admin/ HTTP/1.1" 200 6427
+[19/Dec/2018 15:35:07] "GET /admin/auth/group/ HTTP/1.1" 200 4496
+[19/Dec/2018 15:35:07] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:35:10] "GET /admin/auth/group/add/ HTTP/1.1" 200 6987
+[19/Dec/2018 15:35:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:35:41] "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+[19/Dec/2018 15:35:41] "GET /admin/auth/group/ HTTP/1.1" 200 4880
+[19/Dec/2018 15:35:41] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 14:30:32
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[19/Dec/2018 15:37:56] "GET /admin/auth/group/ HTTP/1.1" 200 4717
+[19/Dec/2018 15:37:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:38:09] "GET /admin/ HTTP/1.1" 200 6422
+[19/Dec/2018 15:38:10] "GET /admin/auth/user/ HTTP/1.1" 200 9316
+[19/Dec/2018 15:38:10] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:38:18] "GET /admin/ HTTP/1.1" 200 6422
+[19/Dec/2018 15:38:19] "GET /admin/lab/project/ HTTP/1.1" 200 5641
+[19/Dec/2018 15:38:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:46:12] "GET /admin/ HTTP/1.1" 200 6422
+[19/Dec/2018 15:46:14] "GET /admin/auth/user/ HTTP/1.1" 200 9737
+[19/Dec/2018 15:46:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:46:18] "POST /admin/auth/user/ HTTP/1.1" 200 3207
+[19/Dec/2018 15:46:20] "POST /admin/auth/user/ HTTP/1.1" 302 0
+[19/Dec/2018 15:46:20] "GET /admin/auth/user/ HTTP/1.1" 200 9436
+[19/Dec/2018 15:46:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:46:35] "GET /admin/auth/user/ HTTP/1.1" 200 21158
+[19/Dec/2018 15:46:35] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:46:49] "POST /admin/auth/user/ HTTP/1.1" 200 6726
+[19/Dec/2018 15:46:58] "POST /admin/auth/user/ HTTP/1.1" 302 0
+[19/Dec/2018 15:46:58] "GET /admin/auth/user/ HTTP/1.1" 200 18781
+[19/Dec/2018 15:46:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:47:11] "GET /admin/auth/ HTTP/1.1" 200 2623
+[19/Dec/2018 15:47:12] "GET /admin/ HTTP/1.1" 200 6282
+[19/Dec/2018 15:47:13] "GET /admin/lab/project/ HTTP/1.1" 200 5629
+[19/Dec/2018 15:47:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:47:16] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 7487
+[19/Dec/2018 15:47:16] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:47:38] "GET /admin/lab/project/ HTTP/1.1" 200 5629
+[19/Dec/2018 15:48:02] "GET /admin/logout/ HTTP/1.1" 302 0
+[19/Dec/2018 15:48:02] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:48:02] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 15:48:02] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 15:48:12] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:48:12] "GET /admin/ HTTP/1.1" 200 2738
+[19/Dec/2018 15:48:14] "GET /admin/lab/project/ HTTP/1.1" 200 4098
+[19/Dec/2018 15:48:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:48:15] "GET /admin/ HTTP/1.1" 200 2738
+[19/Dec/2018 15:48:34] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 15:48:36] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:48:36] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 15:48:46] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:48:46] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 15:48:46] "GET /admin/ HTTP/1.1" 200 6282
+[19/Dec/2018 15:48:58] "GET /admin/auth/user/add/ HTTP/1.1" 200 8516
+[19/Dec/2018 15:48:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:49:00] "GET /admin/ HTTP/1.1" 200 6282
+[19/Dec/2018 15:49:01] "GET /admin/auth/group/add/ HTTP/1.1" 200 6987
+[19/Dec/2018 15:49:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:50:09] "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+[19/Dec/2018 15:50:09] "GET /admin/auth/group/ HTTP/1.1" 200 5095
+[19/Dec/2018 15:50:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:50:13] "GET /admin/auth/ HTTP/1.1" 200 2623
+[19/Dec/2018 15:50:15] "GET /admin/auth/user/ HTTP/1.1" 200 18737
+[19/Dec/2018 15:50:15] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:50:21] "GET /admin/auth/user/15/change/ HTTP/1.1" 200 17528
+[19/Dec/2018 15:50:21] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:50:31] "POST /admin/auth/user/15/change/ HTTP/1.1" 200 17728
+[19/Dec/2018 15:50:31] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 15:37:50
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[19/Dec/2018 15:58:37] "GET /admin/auth/user/ HTTP/1.1" 200 18737
+[19/Dec/2018 15:58:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:59:17] "GET /admin/auth/user/ HTTP/1.1" 200 28520
+[19/Dec/2018 15:59:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:59:28] "POST /admin/auth/user/ HTTP/1.1" 200 9062
+[19/Dec/2018 15:59:38] "POST /admin/auth/user/ HTTP/1.1" 302 0
+[19/Dec/2018 15:59:38] "POST /admin/auth/user/ HTTP/1.1" 302 0
+[19/Dec/2018 15:59:38] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 15:59:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 15:59:47] "GET /admin/auth/user/45/change/ HTTP/1.1" 200 17501
+[19/Dec/2018 15:59:47] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:00:25] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:00:26] "GET /admin/auth/user/54/change/ HTTP/1.1" 200 17512
+[19/Dec/2018 16:00:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 15:55:53
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[19/Dec/2018 16:00:55] "GET /admin/auth/user/54/change/ HTTP/1.1" 200 17502
+[19/Dec/2018 16:00:55] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:00:57] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:00:58] "GET /admin/auth/user/45/change/ HTTP/1.1" 200 17500
+[19/Dec/2018 16:00:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:01:06] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 16:00:42
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[19/Dec/2018 16:01:36] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:01:36] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:01:38] "GET /admin/auth/user/43/change/ HTTP/1.1" 200 17585
+[19/Dec/2018 16:01:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:01:44] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:01:45] "GET /admin/auth/ HTTP/1.1" 200 2623
+[19/Dec/2018 16:01:46] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:01:46] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:01:56] "GET /admin/ HTTP/1.1" 200 6175
+[19/Dec/2018 16:01:58] "GET /admin/lab/project/ HTTP/1.1" 200 5629
+[19/Dec/2018 16:01:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:02:03] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:02:04] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:02:04] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:02:10] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:02:10] "GET /admin/ HTTP/1.1" 200 2740
+[19/Dec/2018 16:02:11] "GET /admin/lab/project/ HTTP/1.1" 200 4100
+[19/Dec/2018 16:02:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:02:13] "GET /admin/ HTTP/1.1" 200 2740
+[19/Dec/2018 16:02:19] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[19/Dec/2018 16:02:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:02:21] "GET /admin/ HTTP/1.1" 200 2740
+[19/Dec/2018 16:02:26] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:02:27] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:02:27] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:02:34] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:02:34] "GET /admin/ HTTP/1.1" 200 2278
+Not Found: /admin/auth/user/add/
+[19/Dec/2018 16:02:36] "GET /admin/auth/user/add/ HTTP/1.1" 404 1928
+[19/Dec/2018 16:02:43] "GET /admin/ HTTP/1.1" 200 2278
+[19/Dec/2018 16:02:46] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:02:47] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:02:47] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:02:57] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:02:57] "GET /admin/ HTTP/1.1" 200 6175
+[19/Dec/2018 16:03:04] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:03:04] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:03:05] "GET /admin/ HTTP/1.1" 200 6175
+[19/Dec/2018 16:03:06] "GET /admin/auth/group/ HTTP/1.1" 200 4935
+[19/Dec/2018 16:03:06] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:03:10] "GET /admin/auth/group/2/change/ HTTP/1.1" 200 7226
+[19/Dec/2018 16:03:10] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:03:32] "POST /admin/auth/group/2/change/ HTTP/1.1" 302 0
+[19/Dec/2018 16:03:32] "GET /admin/auth/group/ HTTP/1.1" 200 5098
+[19/Dec/2018 16:03:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:03:38] "GET /admin/auth/group/3/change/ HTTP/1.1" 200 7220
+[19/Dec/2018 16:03:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:03:40] "GET /admin/auth/ HTTP/1.1" 200 2623
+[19/Dec/2018 16:03:44] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:03:45] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:03:45] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:03:55] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:03:56] "GET /admin/ HTTP/1.1" 200 2738
+[19/Dec/2018 16:04:05] "GET /admin/lab/project/ HTTP/1.1" 200 4098
+[19/Dec/2018 16:04:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:04:06] "GET /admin/ HTTP/1.1" 200 2738
+[19/Dec/2018 16:04:06] "GET /admin/lab/sample/ HTTP/1.1" 200 4082
+[19/Dec/2018 16:04:06] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:04:08] "GET /admin/ HTTP/1.1" 200 2738
+[19/Dec/2018 16:04:09] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:04:10] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:04:10] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:04:15] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:04:15] "GET /admin/ HTTP/1.1" 200 2260
+[19/Dec/2018 16:04:20] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:04:21] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:04:21] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:04:27] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:04:27] "GET /admin/ HTTP/1.1" 200 6223
+[19/Dec/2018 16:04:30] "GET /admin/auth/group/ HTTP/1.1" 200 4935
+[19/Dec/2018 16:04:30] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:04:32] "GET /admin/auth/group/3/change/ HTTP/1.1" 200 7220
+[19/Dec/2018 16:04:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:05:01] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:05:02] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:05:03] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:05:07] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:05:07] "GET /admin/ HTTP/1.1" 200 6223
+[19/Dec/2018 16:05:09] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:05:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:05:16] "GET /admin/auth/user/53/change/ HTTP/1.1" 200 17597
+[19/Dec/2018 16:05:16] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:05:21] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:05:30] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:05:31] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:05:32] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:05:39] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:05:39] "GET /admin/ HTTP/1.1" 200 2365
+[19/Dec/2018 16:05:42] "GET /admin/auth/user/add/ HTTP/1.1" 200 5501
+[19/Dec/2018 16:05:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:05:44] "GET /admin/ HTTP/1.1" 200 2365
+[19/Dec/2018 16:05:45] "GET /admin/auth/user/ HTTP/1.1" 200 16687
+[19/Dec/2018 16:05:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:05:46] "GET /admin/auth/user/53/change/ HTTP/1.1" 200 14137
+[19/Dec/2018 16:05:46] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:06:04] "GET /admin/auth/user/ HTTP/1.1" 200 16687
+[19/Dec/2018 16:06:14] "GET /admin/auth/user/54/change/ HTTP/1.1" 200 14096
+[19/Dec/2018 16:06:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:06:20] "GET /admin/auth/user/ HTTP/1.1" 200 16687
+[19/Dec/2018 16:06:25] "GET /admin/auth/user/49/change/ HTTP/1.1" 200 14094
+[19/Dec/2018 16:06:25] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:06:39] "POST /admin/auth/user/49/change/ HTTP/1.1" 200 14268
+[19/Dec/2018 16:06:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:06:48] "POST /admin/auth/user/49/change/ HTTP/1.1" 302 0
+[19/Dec/2018 16:06:48] "GET /admin/auth/user/ HTTP/1.1" 200 16850
+[19/Dec/2018 16:06:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:06:56] "GET /admin/auth/user/? HTTP/1.1" 200 16687
+[19/Dec/2018 16:06:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:06:59] "GET /admin/auth/user/?is_superuser__exact=1 HTTP/1.1" 200 7588
+[19/Dec/2018 16:06:59] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:07:01] "GET /admin/auth/user/?is_staff__exact=0&is_superuser__exact=1 HTTP/1.1" 200 5959
+[19/Dec/2018 16:07:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:07:02] "GET /admin/auth/ HTTP/1.1" 200 2242
+[19/Dec/2018 16:07:03] "GET /admin/ HTTP/1.1" 200 2685
+Not Found: /
+[19/Dec/2018 16:07:10] "GET / HTTP/1.1" 404 2046
+[19/Dec/2018 16:07:13] "GET /admin/ HTTP/1.1" 200 2685
+[19/Dec/2018 16:07:27] "GET /admin/auth/user/ HTTP/1.1" 200 16687
+[19/Dec/2018 16:07:27] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /
+[19/Dec/2018 16:07:34] "GET / HTTP/1.1" 404 2046
+[19/Dec/2018 16:07:37] "GET /admin/auth/user/ HTTP/1.1" 200 16687
+[19/Dec/2018 16:08:38] "GET /admin/auth/user/45/change/ HTTP/1.1" 200 14127
+[19/Dec/2018 16:08:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:08:42] "GET /admin/auth/user/ HTTP/1.1" 200 16687
+[19/Dec/2018 16:08:45] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:08:46] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:08:46] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:08:52] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:08:52] "GET /admin/ HTTP/1.1" 200 2738
+[19/Dec/2018 16:08:55] "GET /admin/password_change/ HTTP/1.1" 200 2527
+[19/Dec/2018 16:08:57] "GET /admin/ HTTP/1.1" 200 2738
+[19/Dec/2018 16:09:01] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:09:02] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:09:02] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:09:11] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:09:11] "GET /admin/ HTTP/1.1" 200 6223
+[19/Dec/2018 16:09:13] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:09:13] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:09:14] "GET /admin/auth/user/45/change/ HTTP/1.1" 200 17617
+[19/Dec/2018 16:09:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:09:20] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:09:48] "GET /admin/auth/user/?groups__isnull=True HTTP/1.1" 200 7492
+[19/Dec/2018 16:09:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:09:54] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:09:56] "GET /admin/ HTTP/1.1" 200 6223
+[19/Dec/2018 16:09:58] "GET /admin/lab/project/ HTTP/1.1" 200 5629
+[19/Dec/2018 16:09:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:10:03] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 7294
+[19/Dec/2018 16:10:03] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:10:12] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 16:10:16] "GET /admin/ HTTP/1.1" 200 6223
+[19/Dec/2018 16:10:17] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:10:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:10:20] "GET /admin/auth/user/51/change/ HTTP/1.1" 200 17597
+[19/Dec/2018 16:10:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:10:39] "POST /admin/auth/user/51/change/ HTTP/1.1" 302 0
+[19/Dec/2018 16:10:39] "GET /admin/auth/user/ HTTP/1.1" 200 16847
+[19/Dec/2018 16:10:39] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:10:42] "GET /admin/ HTTP/1.1" 200 6274
+[19/Dec/2018 16:10:43] "GET /admin/lab/project/ HTTP/1.1" 200 5629
+[19/Dec/2018 16:10:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:10:44] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 7253
+[19/Dec/2018 16:10:44] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /
+[19/Dec/2018 16:11:12] "GET / HTTP/1.1" 404 2046
+[19/Dec/2018 16:11:14] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 7253
+Not Found: /
+[19/Dec/2018 16:11:25] "GET / HTTP/1.1" 404 2046
+[19/Dec/2018 16:11:27] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 7253
+Not Found: /
+[19/Dec/2018 16:11:28] "GET / HTTP/1.1" 404 2046
+[19/Dec/2018 16:11:33] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 7253
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 16:01:33
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f19e72e22a8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab_project/urls.py", line 23, in <module>
+    url(r'^$',welcome),
+NameError: name 'welcome' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f323390c2a8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab_project/urls.py", line 19
+    frome lab.views import *
+            ^
+SyntaxError: invalid syntax
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 16:14:21
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[19/Dec/2018 16:14:32] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 7253
+[19/Dec/2018 16:14:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:14:35] "GET / HTTP/1.1" 200 52
+[19/Dec/2018 16:14:38] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 7253
+[19/Dec/2018 16:14:44] "GET / HTTP/1.1" 200 52
+[19/Dec/2018 16:14:49] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 7253
+[19/Dec/2018 16:14:50] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 16:14:56] "GET /admin/ HTTP/1.1" 200 6274
+[19/Dec/2018 16:15:05] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:15:06] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:15:10] "GET /admin/ HTTP/1.1" 200 6274
+[19/Dec/2018 16:15:11] "GET /admin/auth/group/ HTTP/1.1" 200 4935
+[19/Dec/2018 16:15:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:15:14] "GET /admin/ HTTP/1.1" 200 6274
+[19/Dec/2018 16:15:34] "GET /admin/auth/group/ HTTP/1.1" 200 4935
+[19/Dec/2018 16:15:34] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:15:36] "GET /admin/auth/group/3/change/ HTTP/1.1" 200 7220
+[19/Dec/2018 16:15:36] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:15:52] "GET /admin/auth/group/ HTTP/1.1" 200 4935
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 16:14:31
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[19/Dec/2018 16:19:05] "GET /admin/auth/group/ HTTP/1.1" 200 4935
+[19/Dec/2018 16:19:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:19:06] "GET /admin/auth/ HTTP/1.1" 200 2623
+[19/Dec/2018 16:19:08] "GET /admin/ HTTP/1.1" 200 6274
+[19/Dec/2018 16:19:10] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:19:11] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:19:11] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:19:18] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:19:18] "GET /admin/ HTTP/1.1" 200 2260
+[19/Dec/2018 16:19:40] "GET /admin/ HTTP/1.1" 200 2260
+[19/Dec/2018 16:19:42] "GET /admin/lab/project/add/ HTTP/1.1" 200 6917
+[19/Dec/2018 16:19:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:19:44] "GET /admin/ HTTP/1.1" 200 2260
+[19/Dec/2018 16:19:51] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:19:52] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:19:52] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:20:02] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:20:02] "GET /admin/ HTTP/1.1" 200 6274
+[19/Dec/2018 16:20:04] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:20:04] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:20:06] "GET /admin/ HTTP/1.1" 200 6274
+[19/Dec/2018 16:20:07] "GET /admin/auth/group/ HTTP/1.1" 200 4935
+[19/Dec/2018 16:20:07] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:20:09] "GET /admin/auth/group/3/change/ HTTP/1.1" 200 7220
+[19/Dec/2018 16:20:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:20:26] "POST /admin/auth/group/3/change/ HTTP/1.1" 302 0
+[19/Dec/2018 16:20:26] "GET /admin/auth/group/ HTTP/1.1" 200 5095
+[19/Dec/2018 16:20:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:20:31] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:20:32] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:20:33] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:20:40] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1795
+[19/Dec/2018 16:20:45] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:20:45] "GET /admin/ HTTP/1.1" 200 2740
+[19/Dec/2018 16:20:47] "GET /admin/lab/sample/add/ HTTP/1.1" 200 8813
+[19/Dec/2018 16:20:47] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:20:55] "GET /admin/ HTTP/1.1" 200 2740
+[19/Dec/2018 16:20:57] "GET /admin/lab/project/add/ HTTP/1.1" 200 7022
+[19/Dec/2018 16:20:57] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:21:18] "POST /admin/lab/project/add/ HTTP/1.1" 302 0
+Internal Server Error: /admin/lab/project/
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1542, in changelist_view
+    self.list_max_show_all, self.list_editable, self,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 44, in __init__
+    self.root_queryset = model_admin.get_queryset(request)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/admin.py", line 36, in get_queryset
+    if request.user.is_superuser or is_manage(request.user) :
+NameError: global name 'is_manage' is not defined
+[19/Dec/2018 16:21:19] "GET /admin/lab/project/ HTTP/1.1" 500 112609
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 16:19:02
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[19/Dec/2018 16:21:57] "GET /admin/lab/project/ HTTP/1.1" 200 5802
+[19/Dec/2018 16:21:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:22:05] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:22:06] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:22:06] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:22:13] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:22:13] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:22:14] "GET /admin/lab/sample/ HTTP/1.1" 200 4085
+[19/Dec/2018 16:22:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:22:15] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:22:16] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:22:17] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:22:17] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:22:24] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:22:24] "GET /admin/ HTTP/1.1" 200 2739
+[19/Dec/2018 16:22:25] "GET /admin/lab/sample/ HTTP/1.1" 200 4083
+[19/Dec/2018 16:22:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:22:30] "GET /admin/ HTTP/1.1" 200 2739
+[19/Dec/2018 16:22:31] "GET /admin/lab/project/ HTTP/1.1" 200 5945
+[19/Dec/2018 16:22:31] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:22:35] "GET /admin/lab/project/3/change/ HTTP/1.1" 200 7271
+[19/Dec/2018 16:22:35] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:22:41] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:22:41] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:22:41] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:22:45] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:22:45] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:22:46] "GET /admin/lab/project/ HTTP/1.1" 200 4101
+[19/Dec/2018 16:22:46] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:22:47] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:22:50] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:22:51] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:22:51] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:22:55] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+[19/Dec/2018 16:23:04] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:23:04] "GET /admin/ HTTP/1.1" 200 6319
+[19/Dec/2018 16:23:06] "GET /admin/auth/user/add/ HTTP/1.1" 200 8590
+[19/Dec/2018 16:23:07] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:23:08] "GET /admin/ HTTP/1.1" 200 6319
+[19/Dec/2018 16:23:09] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 16:23:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:23:20] "GET /admin/auth/user/55/change/ HTTP/1.1" 200 17617
+[19/Dec/2018 16:23:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:23:26] "POST /admin/auth/user/55/change/ HTTP/1.1" 302 0
+[19/Dec/2018 16:23:26] "GET /admin/auth/user/ HTTP/1.1" 200 16844
+[19/Dec/2018 16:23:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:23:29] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:23:30] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:23:30] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:27:35] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:27:35] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:27:39] "GET /admin/lab/project/add/ HTTP/1.1" 200 6985
+[19/Dec/2018 16:27:39] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:27:46] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:27:50] "GET /admin/lab/sample/add/ HTTP/1.1" 200 8852
+[19/Dec/2018 16:27:51] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:28:23] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:28:26] "GET /admin/lab/sample/ HTTP/1.1" 200 4085
+[19/Dec/2018 16:28:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:28:27] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:28:29] "GET /admin/lab/project/add/ HTTP/1.1" 200 6985
+[19/Dec/2018 16:28:29] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:28:30] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:28:43] "GET /admin/lab/project/add/ HTTP/1.1" 200 6985
+[19/Dec/2018 16:28:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:28:48] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:29:07] "GET /admin/password_change/ HTTP/1.1" 200 2530
+[19/Dec/2018 16:29:15] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:31:42] "GET /admin/lab/project/add/ HTTP/1.1" 200 6985
+[19/Dec/2018 16:31:42] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:31:48] "GET /admin/ HTTP/1.1" 200 2741
+[19/Dec/2018 16:34:51] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:34:52] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:34:52] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:34:57] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+[19/Dec/2018 16:35:00] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:35:00] "GET /admin/ HTTP/1.1" 200 6367
+[19/Dec/2018 16:35:06] "GET /admin/auth/group/ HTTP/1.1" 200 4935
+[19/Dec/2018 16:35:06] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:35:08] "GET /admin/auth/group/2/change/ HTTP/1.1" 200 7235
+[19/Dec/2018 16:35:08] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:35:29] "POST /admin/auth/group/2/change/ HTTP/1.1" 302 0
+[19/Dec/2018 16:35:29] "GET /admin/auth/group/ HTTP/1.1" 200 5098
+[19/Dec/2018 16:35:29] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:35:31] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:35:32] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:35:32] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:35:41] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:35:41] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:35:41] "GET /admin/ HTTP/1.1" 200 2361
+[19/Dec/2018 16:35:43] "GET /admin/auth/user/add/ HTTP/1.1" 200 8592
+[19/Dec/2018 16:35:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:35:47] "GET /admin/ HTTP/1.1" 200 2361
+[19/Dec/2018 16:35:59] "GET /admin/auth/user/ HTTP/1.1" 200 16683
+[19/Dec/2018 16:35:59] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:36:01] "GET /admin/auth/user/54/change/ HTTP/1.1" 200 17238
+[19/Dec/2018 16:36:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:36:10] "GET /admin/auth/user/ HTTP/1.1" 200 16683
+[19/Dec/2018 16:37:27] "GET / HTTP/1.1" 200 52
+[19/Dec/2018 16:37:29] "GET /admin/auth/user/ HTTP/1.1" 200 16683
+[19/Dec/2018 16:37:52] "GET /admin/ HTTP/1.1" 200 2361
+[19/Dec/2018 16:37:55] "GET /admin/logout/ HTTP/1.1" 200 1019
