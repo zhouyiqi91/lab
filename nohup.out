@@ -4228,3 +4228,776 @@ Quit the server with CONTROL-C.
 [19/Dec/2018 16:37:29] "GET /admin/auth/user/ HTTP/1.1" 200 16683
 [19/Dec/2018 16:37:52] "GET /admin/ HTTP/1.1" 200 2361
 [19/Dec/2018 16:37:55] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 16:47:10] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:47:10] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 16:21:57
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[19/Dec/2018 16:47:55] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:48:07] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 16:48:10] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 16:48:10] "GET /admin/ HTTP/1.1" 200 6415
+[19/Dec/2018 16:48:14] "GET /admin/lab/project/add/ HTTP/1.1" 200 6980
+[19/Dec/2018 16:48:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:48:28] "POST /admin/lab/project/add/ HTTP/1.1" 302 0
+[19/Dec/2018 16:48:28] "GET /admin/lab/project/ HTTP/1.1" 200 6703
+[19/Dec/2018 16:48:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:48:39] "GET /admin/lab/project/3/change/ HTTP/1.1" 200 7230
+[19/Dec/2018 16:48:39] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:48:42] "GET /admin/lab/project/ HTTP/1.1" 200 6540
+[19/Dec/2018 16:48:43] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 7215
+[19/Dec/2018 16:48:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:48:48] "POST /admin/lab/project/2/change/ HTTP/1.1" 302 0
+[19/Dec/2018 16:48:48] "GET /admin/lab/project/ HTTP/1.1" 200 6703
+[19/Dec/2018 16:48:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:48:50] "GET /admin/lab/project/2/change/ HTTP/1.1" 200 7224
+[19/Dec/2018 16:48:50] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:48:55] "GET /admin/lab/project/ HTTP/1.1" 200 6540
+[19/Dec/2018 16:48:57] "GET /admin/lab/project/add/ HTTP/1.1" 200 6980
+[19/Dec/2018 16:48:57] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:49:00] "POST /admin/lab/project/add/ HTTP/1.1" 200 7281
+[19/Dec/2018 16:49:00] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:49:05] "POST /admin/lab/project/add/ HTTP/1.1" 200 7154
+[19/Dec/2018 16:49:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:49:10] "POST /admin/lab/project/add/ HTTP/1.1" 302 0
+[19/Dec/2018 16:49:10] "GET /admin/lab/project/ HTTP/1.1" 200 7052
+[19/Dec/2018 16:49:10] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:57:01] "GET /admin/lab/project/ HTTP/1.1" 200 6890
+[19/Dec/2018 16:57:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:57:06] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 16:57:07] "GET /admin/lab/project/ HTTP/1.1" 200 6890
+[19/Dec/2018 16:57:07] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:57:09] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 16:57:09] "GET /admin/lab/sample/ HTTP/1.1" 200 6417
+[19/Dec/2018 16:57:10] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:57:12] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 16:57:16] "GET /admin/lab/project/ HTTP/1.1" 200 6890
+[19/Dec/2018 16:57:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:57:23] "POST /admin/lab/project/ HTTP/1.1" 200 4026
+[19/Dec/2018 16:57:25] "POST /admin/lab/project/ HTTP/1.1" 302 0
+[19/Dec/2018 16:57:25] "GET /admin/lab/project/ HTTP/1.1" 200 4218
+[19/Dec/2018 16:57:25] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:57:26] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 16:57:27] "GET /admin/lab/sample/ HTTP/1.1" 200 4080
+[19/Dec/2018 16:57:27] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 16:57:29] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 16:57:30] "GET /admin/lab/project/ HTTP/1.1" 200 4096
+[19/Dec/2018 16:57:30] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:01:13] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 17:01:14] "GET /admin/lab/project/ HTTP/1.1" 200 4096
+[19/Dec/2018 17:01:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:01:16] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 17:01:39] "GET /admin/lab/project/ HTTP/1.1" 200 4096
+[19/Dec/2018 17:01:39] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:01:41] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 17:08:13] "GET /admin/lab/project/ HTTP/1.1" 200 4096
+[19/Dec/2018 17:08:13] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:08:14] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 17:24:29] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 17:24:31] "GET /admin/lab/project/ HTTP/1.1" 200 6258
+[19/Dec/2018 17:24:31] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:24:37] "GET /admin/lab/project/6/change/ HTTP/1.1" 200 7289
+[19/Dec/2018 17:24:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:24:43] "GET /admin/lab/project/ HTTP/1.1" 200 6258
+[19/Dec/2018 17:24:45] "GET /admin/lab/project/7/change/ HTTP/1.1" 200 7298
+[19/Dec/2018 17:24:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:24:47] "GET /admin/lab/project/ HTTP/1.1" 200 6258
+[19/Dec/2018 17:25:00] "POST /admin/lab/project/ HTTP/1.1" 200 3165
+[19/Dec/2018 17:25:01] "POST /admin/lab/project/ HTTP/1.1" 302 0
+[19/Dec/2018 17:25:02] "GET /admin/lab/project/ HTTP/1.1" 200 5991
+[19/Dec/2018 17:25:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:25:04] "GET /admin/lab/project/7/change/ HTTP/1.1" 200 7298
+[19/Dec/2018 17:25:04] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:25:08] "GET /admin/lab/project/ HTTP/1.1" 200 5870
+[19/Dec/2018 17:31:41] "GET /admin/lab/project/ HTTP/1.1" 200 6258
+[19/Dec/2018 17:31:41] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:31:57] "GET /admin/lab/project/ HTTP/1.1" 200 6655
+[19/Dec/2018 17:31:57] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:31:59] "GET /admin/lab/project/9/change/ HTTP/1.1" 200 7307
+[19/Dec/2018 17:31:59] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:32:04] "GET /admin/lab/project/ HTTP/1.1" 200 6655
+[19/Dec/2018 17:32:17] "POST /admin/lab/project/ HTTP/1.1" 200 3825
+[19/Dec/2018 17:32:20] "POST /admin/lab/project/ HTTP/1.1" 302 0
+[19/Dec/2018 17:32:20] "GET /admin/lab/project/ HTTP/1.1" 200 4218
+[19/Dec/2018 17:32:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:40:56] "GET /admin/lab/project/ HTTP/1.1" 200 5872
+[19/Dec/2018 17:40:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:41:02] "GET /admin/lab/project/10/change/ HTTP/1.1" 200 7291
+[19/Dec/2018 17:41:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:41:04] "GET /admin/lab/project/ HTTP/1.1" 200 5872
+[19/Dec/2018 17:44:36] "POST /admin/lab/project/ HTTP/1.1" 200 3167
+[19/Dec/2018 17:44:37] "POST /admin/lab/project/ HTTP/1.1" 302 0
+[19/Dec/2018 17:44:37] "GET /admin/lab/project/ HTTP/1.1" 200 4217
+[19/Dec/2018 17:44:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:44:38] "GET /admin/lab/project/ HTTP/1.1" 200 4096
+[19/Dec/2018 17:44:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:44:47] "GET /admin/lab/project/ HTTP/1.1" 200 4096
+[19/Dec/2018 17:44:47] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:44:48] "GET /admin/lab/project/ HTTP/1.1" 200 4096
+[19/Dec/2018 17:44:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:45:00] "GET /admin/lab/project/ HTTP/1.1" 200 4096
+[19/Dec/2018 17:45:00] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:45:02] "GET /admin/lab/project/ HTTP/1.1" 200 4096
+[19/Dec/2018 17:45:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:46:17] "GET /admin/lab/project/ HTTP/1.1" 200 9467
+[19/Dec/2018 17:46:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:48:43] "POST /admin/lab/project/ HTTP/1.1" 200 5884
+[19/Dec/2018 17:48:45] "POST /admin/lab/project/ HTTP/1.1" 302 0
+[19/Dec/2018 17:48:45] "GET /admin/lab/project/ HTTP/1.1" 200 4219
+[19/Dec/2018 17:48:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:48:50] "GET /admin/lab/project/ HTTP/1.1" 200 9467
+[19/Dec/2018 17:48:50] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:49:24] "POST /admin/lab/project/ HTTP/1.1" 200 5884
+[19/Dec/2018 17:49:26] "POST /admin/lab/project/ HTTP/1.1" 302 0
+[19/Dec/2018 17:49:26] "GET /admin/lab/project/ HTTP/1.1" 200 4219
+[19/Dec/2018 17:49:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:49:34] "GET /admin/lab/project/ HTTP/1.1" 200 9849
+[19/Dec/2018 17:49:34] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:49:54] "POST /admin/lab/project/ HTTP/1.1" 200 6235
+[19/Dec/2018 17:49:56] "POST /admin/lab/project/ HTTP/1.1" 302 0
+[19/Dec/2018 17:49:56] "GET /admin/lab/project/ HTTP/1.1" 200 4219
+[19/Dec/2018 17:49:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:50:02] "GET /admin/lab/project/ HTTP/1.1" 200 13781
+[19/Dec/2018 17:50:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:50:15] "GET /admin/lab/ HTTP/1.1" 200 2576
+[19/Dec/2018 17:50:16] "GET /admin/lab/sample/ HTTP/1.1" 200 4080
+[19/Dec/2018 17:50:16] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:50:18] "GET /admin/ HTTP/1.1" 200 6604
+[19/Dec/2018 17:50:19] "GET /admin/auth/user/ HTTP/1.1" 200 16681
+[19/Dec/2018 17:50:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:50:32] "GET /admin/auth/user/add/ HTTP/1.1" 200 8590
+[19/Dec/2018 17:50:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:50:45] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[19/Dec/2018 17:50:45] "GET /admin/auth/user/66/change/ HTTP/1.1" 200 17741
+[19/Dec/2018 17:50:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:50:52] "POST /admin/auth/user/66/change/ HTTP/1.1" 302 0
+[19/Dec/2018 17:50:52] "GET /admin/auth/user/ HTTP/1.1" 200 17259
+[19/Dec/2018 17:50:52] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:50:52] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[19/Dec/2018 17:50:54] "GET /admin/ HTTP/1.1" 200 6599
+[19/Dec/2018 17:50:57] "GET /admin/auth/user/ HTTP/1.1" 200 17102
+[19/Dec/2018 17:50:57] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:50:58] "GET /admin/ HTTP/1.1" 200 6599
+[19/Dec/2018 17:51:00] "GET /admin/lab/project/ HTTP/1.1" 200 13781
+[19/Dec/2018 17:51:00] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:51:03] "POST /admin/lab/project/ HTTP/1.1" 200 9068
+[19/Dec/2018 17:51:05] "POST /admin/lab/project/ HTTP/1.1" 302 0
+[19/Dec/2018 17:51:05] "GET /admin/lab/project/ HTTP/1.1" 200 4219
+[19/Dec/2018 17:51:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:51:12] "GET /admin/lab/project/ HTTP/1.1" 200 18584
+[19/Dec/2018 17:51:12] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:51:28] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 19782
+[19/Dec/2018 17:51:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:53:29] "POST /admin/lab/project/?o=4 HTTP/1.1" 200 12661
+[19/Dec/2018 17:53:32] "POST /admin/lab/project/?o=4 HTTP/1.1" 302 0
+[19/Dec/2018 17:53:32] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 4327
+[19/Dec/2018 17:53:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:53:43] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 19840
+[19/Dec/2018 17:53:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 16:47:54
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7ff383bcd320>
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/models.py", line 49, in <module>
+    class Project(models.Model):
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/models.py", line 61, in Project
+    creat
+NameError: name 'creat' is not defined
+[19/Dec/2018 17:55:43] "GET /admin/ HTTP/1.1" 200 6646
+[19/Dec/2018 17:55:46] "GET /admin/lab/project/ HTTP/1.1" 200 18702
+[19/Dec/2018 17:55:46] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:55:53] "GET /admin/lab/project/118/change/ HTTP/1.1" 200 7342
+[19/Dec/2018 17:55:53] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:55:57] "GET /admin/lab/project/ HTTP/1.1" 200 18702
+[19/Dec/2018 17:56:02] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 17:56:03] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 17:56:03] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 17:56:10] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 17:56:10] "GET /admin/ HTTP/1.1" 200 3060
+[19/Dec/2018 17:56:11] "GET /admin/lab/project/ HTTP/1.1" 200 9894
+[19/Dec/2018 17:56:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:56:17] "GET /admin/ HTTP/1.1" 200 3060
+[19/Dec/2018 17:56:18] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[19/Dec/2018 17:56:18] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:56:20] "GET /admin/ HTTP/1.1" 200 3060
+[19/Dec/2018 17:56:21] "GET /admin/lab/project/ HTTP/1.1" 200 9894
+[19/Dec/2018 17:56:21] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:56:25] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 17:56:26] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 17:56:26] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 17:56:31] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 17:56:31] "GET /admin/ HTTP/1.1" 200 2738
+[19/Dec/2018 17:56:32] "GET /admin/lab/project/ HTTP/1.1" 200 4098
+[19/Dec/2018 17:56:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:56:34] "GET /admin/ HTTP/1.1" 200 2738
+[19/Dec/2018 17:56:34] "GET /admin/lab/sample/ HTTP/1.1" 200 4082
+[19/Dec/2018 17:56:34] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:56:36] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 17:56:37] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 17:56:37] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 17:56:43] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 17:56:43] "GET /admin/ HTTP/1.1" 200 2739
+[19/Dec/2018 17:56:44] "GET /admin/lab/project/ HTTP/1.1" 200 18705
+[19/Dec/2018 17:56:44] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:56:48] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 17:56:49] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 17:56:49] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 17:56:56] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 17:56:56] "GET /admin/ HTTP/1.1" 200 6646
+[19/Dec/2018 17:56:59] "GET /admin/auth/user/ HTTP/1.1" 200 17102
+[19/Dec/2018 17:56:59] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:57:04] "GET /admin/auth/user/55/change/ HTTP/1.1" 200 17617
+[19/Dec/2018 17:57:04] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:57:14] "POST /admin/auth/user/55/change/ HTTP/1.1" 302 0
+[19/Dec/2018 17:57:14] "GET /admin/auth/user/ HTTP/1.1" 200 17265
+[19/Dec/2018 17:57:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:57:25] "GET /admin/logout/ HTTP/1.1" 200 1019
+[19/Dec/2018 17:57:27] "GET /admin/ HTTP/1.1" 302 0
+[19/Dec/2018 17:57:27] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[19/Dec/2018 17:57:32] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[19/Dec/2018 17:57:32] "GET /admin/ HTTP/1.1" 200 2738
+[19/Dec/2018 17:57:33] "GET /admin/lab/project/ HTTP/1.1" 200 18704
+[19/Dec/2018 17:57:33] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:57:40] "GET /admin/lab/project/106/change/ HTTP/1.1" 200 7299
+[19/Dec/2018 17:57:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:57:42] "GET /admin/lab/project/ HTTP/1.1" 200 18704
+[19/Dec/2018 17:58:02] "GET /admin/lab/project/125/change/ HTTP/1.1" 200 7362
+[19/Dec/2018 17:58:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:58:11] "GET /admin/lab/project/ HTTP/1.1" 200 18704
+[19/Dec/2018 17:58:26] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 19902
+[19/Dec/2018 17:58:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:58:32] "GET /admin/lab/project/127/change/?_changelist_filters=o%3D4 HTTP/1.1" 200 7452
+[19/Dec/2018 17:58:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:58:35] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 19902
+[19/Dec/2018 17:58:36] "GET /admin/lab/project/118/change/?_changelist_filters=o%3D4 HTTP/1.1" 200 7422
+[19/Dec/2018 17:58:36] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:58:38] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 19902
+[19/Dec/2018 17:58:40] "GET /admin/lab/project/128/change/?_changelist_filters=o%3D4 HTTP/1.1" 200 7485
+[19/Dec/2018 17:58:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:58:41] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 19902
+[19/Dec/2018 17:58:43] "GET /admin/lab/project/101/change/?_changelist_filters=o%3D4 HTTP/1.1" 200 7427
+[19/Dec/2018 17:58:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:59:06] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 19902
+[19/Dec/2018 17:59:10] "POST /admin/lab/project/?o=4 HTTP/1.1" 200 12721
+[19/Dec/2018 17:59:13] "POST /admin/lab/project/?o=4 HTTP/1.1" 302 0
+[19/Dec/2018 17:59:13] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 4329
+[19/Dec/2018 17:59:13] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:59:19] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 19910
+[19/Dec/2018 17:59:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:59:19] "GET /admin/lab/project/150/change/?_changelist_filters=o%3D4 HTTP/1.1" 200 7448
+[19/Dec/2018 17:59:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:59:22] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 19910
+[19/Dec/2018 17:59:23] "GET /admin/lab/project/155/change/?_changelist_filters=o%3D4 HTTP/1.1" 200 7427
+[19/Dec/2018 17:59:23] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:59:25] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 19910
+[19/Dec/2018 17:59:26] "GET /admin/lab/project/145/change/?_changelist_filters=o%3D4 HTTP/1.1" 200 7485
+[19/Dec/2018 17:59:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 17:59:29] "GET /admin/lab/project/?o=4 HTTP/1.1" 200 19910
+[19/Dec/2018 18:02:01] "GET /admin/lab/project/?o=3.4 HTTP/1.1" 200 20352
+[19/Dec/2018 18:02:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 18:02:18] "GET /admin/lab/project/?o=3.4&project_date__gte=2018-12-12&project_date__lt=2018-12-20 HTTP/1.1" 200 5016
+[19/Dec/2018 18:02:18] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 18:02:19] "GET /admin/lab/project/?o=3.4&project_date__gte=2018-12-19&project_date__lt=2018-12-20 HTTP/1.1" 200 5016
+[19/Dec/2018 18:02:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 18:02:20] "GET /admin/lab/project/?o=3.4&project_date__gte=2018-12-01&project_date__lt=2019-01-01 HTTP/1.1" 200 9904
+[19/Dec/2018 18:02:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 18:02:26] "GET /admin/lab/project/159/change/?_changelist_filters=project_date__lt%3D2019-01-01%26o%3D3.4%26project_date__gte%3D2018-12-01 HTTP/1.1" 200 7625
+[19/Dec/2018 18:02:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[19/Dec/2018 18:02:30] "GET /admin/lab/project/?o=3.4&project_date__gte=2018-12-01&project_date__lt=2019-01-01 HTTP/1.1" 200 9904
+[19/Dec/2018 18:03:07] "GET /admin/lab/ HTTP/1.1" 200 2578
+[19/Dec/2018 18:03:09] "GET /admin/lab/project/ HTTP/1.1" 200 18712
+[19/Dec/2018 18:03:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:07:14] "GET /admin/logout/ HTTP/1.1" 200 1019
+[20/Dec/2018 08:07:15] "GET /admin/ HTTP/1.1" 302 0
+[20/Dec/2018 08:07:16] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[20/Dec/2018 08:07:24] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[20/Dec/2018 08:07:24] "GET /admin/ HTTP/1.1" 200 3060
+[20/Dec/2018 08:07:26] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[20/Dec/2018 08:07:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:07:28] "GET /admin/lab/sample/add/ HTTP/1.1" 200 11273
+[20/Dec/2018 08:07:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:08:35] "GET /admin/lab/ HTTP/1.1" 200 2580
+[20/Dec/2018 08:08:37] "GET /admin/lab/project/ HTTP/1.1" 200 9902
+[20/Dec/2018 08:08:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:08:38] "GET /admin/lab/project/161/change/ HTTP/1.1" 200 7446
+[20/Dec/2018 08:08:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:08:45] "GET /admin/lab/project/ HTTP/1.1" 200 9902
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2018 - 17:55:41
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[20/Dec/2018 08:09:47] "GET /admin/lab/project/ HTTP/1.1" 200 9902
+[20/Dec/2018 08:09:47] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:09:51] "GET /admin/ HTTP/1.1" 200 3060
+[20/Dec/2018 08:09:52] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[20/Dec/2018 08:09:52] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:09:53] "GET /admin/lab/sample/add/ HTTP/1.1" 200 11273
+[20/Dec/2018 08:09:53] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:12:01] "GET /admin/ HTTP/1.1" 200 3060
+Not Found: /favicon.ico
+[20/Dec/2018 08:12:02] "GET /favicon.ico HTTP/1.1" 404 2199
+[20/Dec/2018 08:12:03] "GET /admin/lab/project/ HTTP/1.1" 200 9902
+[20/Dec/2018 08:12:03] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:12:11] "GET /admin/lab/project/134/change/ HTTP/1.1" 200 7438
+[20/Dec/2018 08:12:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:12:15] "GET /admin/lab/project/ HTTP/1.1" 200 9902
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 20, 2018 - 08:09:42
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[20/Dec/2018 08:17:48] "GET /admin/lab/project/ HTTP/1.1" 200 9902
+[20/Dec/2018 08:17:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:17:51] "GET /admin/lab/ HTTP/1.1" 200 2580
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 20, 2018 - 08:17:46
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[20/Dec/2018 08:17:56] "GET /admin/lab/ HTTP/1.1" 200 2580
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 20, 2018 - 08:17:54
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[20/Dec/2018 08:17:58] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[20/Dec/2018 08:17:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Internal Server Error: /admin/lab/sample/add/
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in _changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/admin.py", line 58, in get_form
+    form = super(SampleAdmin, self).get_form(request, obj, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 615, in get_form
+    fields = flatten_fieldsets(self.get_fieldsets(request, obj))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 304, in get_fieldsets
+    return [(None, {'fields': self.get_fields(request, obj)})]
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 604, in get_fields
+    form = self.get_form(request, obj, fields=None)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/admin.py", line 59, in get_form
+    form.base_fields['project'].queryset = Project.objects.filter(people=request.user)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1179, in build_filter
+    self.check_related_objects(field, value, opts)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1076, in check_related_objects
+    self.check_query_object_type(value, opts, field)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1054, in check_query_object_type
+    (value, opts.object_name))
+ValueError: Cannot query "吴双": Must be "Employee" instance.
+[20/Dec/2018 08:17:59] "GET /admin/lab/sample/add/ HTTP/1.1" 500 175130
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 20, 2018 - 08:17:57
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[20/Dec/2018 08:18:28] "GET /admin/lab/sample/add/ HTTP/1.1" 200 8816
+[20/Dec/2018 08:18:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:18:38] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[20/Dec/2018 08:18:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:19:12] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[20/Dec/2018 08:19:12] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 20, 2018 - 08:18:27
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[20/Dec/2018 08:19:17] "GET /admin/ HTTP/1.1" 200 3060
+[20/Dec/2018 08:19:17] "GET /admin/ HTTP/1.1" 200 3060
+[20/Dec/2018 08:19:18] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[20/Dec/2018 08:19:18] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Internal Server Error: /admin/lab/sample/add/
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in _changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/admin.py", line 58, in get_form
+    form = super(SampleAdmin, self).get_form(request, obj, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 615, in get_form
+    fields = flatten_fieldsets(self.get_fieldsets(request, obj))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 304, in get_fieldsets
+    return [(None, {'fields': self.get_fields(request, obj)})]
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 604, in get_fields
+    form = self.get_form(request, obj, fields=None)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/admin.py", line 59, in get_form
+    form.base_fields['project'].queryset = Project.objects.filter(Employee__user=request.user)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'Employee' into field. Choices are: description, id, name, people, project_date, project_type, sample
+[20/Dec/2018 08:19:20] "GET /admin/lab/sample/add/ HTTP/1.1" 500 174897
+Internal Server Error: /admin/lab/sample/add/
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in _changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/admin.py", line 58, in get_form
+    form = super(SampleAdmin, self).get_form(request, obj, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 615, in get_form
+    fields = flatten_fieldsets(self.get_fieldsets(request, obj))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 304, in get_fieldsets
+    return [(None, {'fields': self.get_fields(request, obj)})]
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 604, in get_fields
+    form = self.get_form(request, obj, fields=None)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/admin.py", line 59, in get_form
+    form.base_fields['project'].queryset = Project.objects.filter(People__user=request.user)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'Employee' into field. Choices are: description, id, name, people, project_date, project_type, sample
+[20/Dec/2018 08:19:41] "GET /admin/lab/sample/add/ HTTP/1.1" 500 175026
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 20, 2018 - 08:19:13
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[20/Dec/2018 08:19:45] "GET /admin/lab/ HTTP/1.1" 200 2580
+Internal Server Error: /admin/lab/sample/add/
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in _changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/admin.py", line 58, in get_form
+    form = super(SampleAdmin, self).get_form(request, obj, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 615, in get_form
+    fields = flatten_fieldsets(self.get_fieldsets(request, obj))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 304, in get_fieldsets
+    return [(None, {'fields': self.get_fields(request, obj)})]
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 604, in get_fields
+    form = self.get_form(request, obj, fields=None)
+  File "/SGRNJ/Database/test/1.11/lab_project/lab/admin.py", line 59, in get_form
+    form.base_fields['project'].queryset = Project.objects.filter(People__user=request.user)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'People' into field. Choices are: description, id, name, people, project_date, project_type, sample
+[20/Dec/2018 08:19:47] "GET /admin/lab/sample/add/ HTTP/1.1" 500 174842
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 20, 2018 - 08:19:42
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[20/Dec/2018 08:19:56] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9643
+[20/Dec/2018 08:19:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:20:01] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[20/Dec/2018 08:20:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:20:03] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9643
+[20/Dec/2018 08:20:03] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 20, 2018 - 08:19:56
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 20, 2018 - 08:20:54
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[20/Dec/2018 08:21:48] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[20/Dec/2018 08:21:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:21:50] "GET /admin/lab/ HTTP/1.1" 200 2580
+[20/Dec/2018 08:21:52] "GET /admin/lab/project/ HTTP/1.1" 200 9902
+[20/Dec/2018 08:21:52] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:21:55] "GET /admin/lab/ HTTP/1.1" 200 2580
+[20/Dec/2018 08:21:56] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[20/Dec/2018 08:21:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:22:09] "GET /admin/lab/ HTTP/1.1" 200 2580
+[20/Dec/2018 08:22:10] "GET /admin/lab/sample/ HTTP/1.1" 200 4084
+[20/Dec/2018 08:22:10] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:22:39] "GET /admin/lab/ HTTP/1.1" 200 2580
+[20/Dec/2018 08:22:41] "GET /admin/lab/project/add/ HTTP/1.1" 200 7016
+[20/Dec/2018 08:22:41] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:22:51] "GET /admin/lab/ HTTP/1.1" 200 2580
+[20/Dec/2018 08:22:55] "GET /admin/lab/project/ HTTP/1.1" 200 9902
+[20/Dec/2018 08:22:55] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:23:09] "GET /admin/lab/project/129/change/ HTTP/1.1" 200 7397
+[20/Dec/2018 08:23:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:23:12] "GET /admin/lab/project/ HTTP/1.1" 200 9902
+[20/Dec/2018 08:35:57] "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[20/Dec/2018 08:35:57] "GET /admin/ HTTP/1.1" 200 3060
+[20/Dec/2018 08:36:26] "GET /admin/ HTTP/1.1" 200 3060
+[20/Dec/2018 08:36:28] "GET /admin/lab/project/ HTTP/1.1" 200 9902
+[20/Dec/2018 08:36:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:36:33] "GET /admin/lab/project/161/change/ HTTP/1.1" 200 7446
+[20/Dec/2018 08:36:33] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:36:36] "GET /admin/lab/project/ HTTP/1.1" 200 9902
+[20/Dec/2018 08:36:44] "GET /admin/logout/ HTTP/1.1" 200 1019
+[20/Dec/2018 08:36:45] "GET /admin/ HTTP/1.1" 302 0
+[20/Dec/2018 08:36:45] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[20/Dec/2018 08:36:53] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[20/Dec/2018 08:36:53] "GET /admin/ HTTP/1.1" 200 2737
+[20/Dec/2018 08:36:54] "GET /admin/lab/project/ HTTP/1.1" 200 4097
+[20/Dec/2018 08:36:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:36:56] "GET /admin/ HTTP/1.1" 200 2737
+[20/Dec/2018 08:36:57] "GET /admin/lab/sample/ HTTP/1.1" 200 4081
+[20/Dec/2018 08:36:57] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:36:58] "GET /admin/ HTTP/1.1" 200 2737
+[20/Dec/2018 08:36:59] "GET /admin/logout/ HTTP/1.1" 200 1019
+[20/Dec/2018 08:37:00] "GET /admin/ HTTP/1.1" 302 0
+[20/Dec/2018 08:37:00] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[20/Dec/2018 08:37:05] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[20/Dec/2018 08:37:05] "GET /admin/ HTTP/1.1" 200 2738
+[20/Dec/2018 08:37:06] "GET /admin/lab/project/ HTTP/1.1" 200 8798
+[20/Dec/2018 08:37:06] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:37:11] "GET /admin/ HTTP/1.1" 200 2738
+[20/Dec/2018 08:37:12] "GET /admin/lab/sample/ HTTP/1.1" 200 4082
+[20/Dec/2018 08:37:12] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:37:13] "GET /admin/ HTTP/1.1" 200 2738
+[20/Dec/2018 08:37:14] "GET /admin/lab/project/ HTTP/1.1" 200 8798
+[20/Dec/2018 08:37:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:37:18] "GET /admin/lab/project/157/change/ HTTP/1.1" 200 7381
+[20/Dec/2018 08:37:18] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:37:42] "POST /admin/lab/project/157/change/ HTTP/1.1" 302 0
+[20/Dec/2018 08:37:42] "GET /admin/lab/project/ HTTP/1.1" 200 9017
+[20/Dec/2018 08:37:42] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:37:51] "GET /admin/lab/project/157/change/ HTTP/1.1" 200 7381
+[20/Dec/2018 08:46:14] "GET /admin/ HTTP/1.1" 200 3114
+Not Found: /favicon.ico
+[20/Dec/2018 08:46:14] "GET /favicon.ico HTTP/1.1" 404 2199
+[20/Dec/2018 08:46:16] "GET /admin/logout/ HTTP/1.1" 200 1019
+[20/Dec/2018 08:46:18] "GET /admin/ HTTP/1.1" 302 0
+[20/Dec/2018 08:46:18] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[20/Dec/2018 08:46:22] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[20/Dec/2018 08:46:22] "GET /admin/ HTTP/1.1" 200 6651
+[20/Dec/2018 08:46:25] "GET /admin/auth/user/ HTTP/1.1" 200 17102
+[20/Dec/2018 08:46:25] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:46:41] "GET /admin/auth/user/66/change/ HTTP/1.1" 200 17549
+[20/Dec/2018 08:46:41] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:46:53] "POST /admin/auth/user/66/change/ HTTP/1.1" 302 0
+[20/Dec/2018 08:46:53] "GET /admin/auth/user/ HTTP/1.1" 200 17265
+[20/Dec/2018 08:46:53] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:47:44] "GET /admin/auth/user/?groups__id__exact=1 HTTP/1.1" 200 15454
+[20/Dec/2018 08:47:44] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:47:48] "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 7966
+[20/Dec/2018 08:47:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:47:52] "GET /admin/auth/user/?groups__id__exact=3 HTTP/1.1" 200 8895
+[20/Dec/2018 08:47:52] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:47:57] "GET /admin/auth/user/?groups__id__exact=1 HTTP/1.1" 200 15454
+[20/Dec/2018 08:47:57] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:02] "GET /admin/auth/ HTTP/1.1" 200 2623
+[20/Dec/2018 08:51:03] "GET /admin/auth/group/ HTTP/1.1" 200 4935
+[20/Dec/2018 08:51:03] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:05] "GET /admin/auth/group/1/change/ HTTP/1.1" 200 7271
+[20/Dec/2018 08:51:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:12] "POST /admin/auth/group/1/change/ HTTP/1.1" 302 0
+[20/Dec/2018 08:51:12] "GET /admin/auth/group/ HTTP/1.1" 200 5092
+[20/Dec/2018 08:51:12] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:14] "GET /admin/auth/group/2/change/ HTTP/1.1" 200 7253
+[20/Dec/2018 08:51:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:18] "POST /admin/auth/group/2/change/ HTTP/1.1" 302 0
+[20/Dec/2018 08:51:18] "GET /admin/auth/group/ HTTP/1.1" 200 5089
+[20/Dec/2018 08:51:18] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:19] "GET /admin/auth/group/3/change/ HTTP/1.1" 200 7265
+[20/Dec/2018 08:51:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:23] "POST /admin/auth/group/3/change/ HTTP/1.1" 302 0
+[20/Dec/2018 08:51:23] "GET /admin/auth/group/ HTTP/1.1" 200 5089
+[20/Dec/2018 08:51:23] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:30] "GET /admin/auth/group/?q=%E7%94%9F%E4%BF%A1 HTTP/1.1" 200 4014
+[20/Dec/2018 08:51:30] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:32] "GET /admin/auth/group/add/?_changelist_filters=q%3D%25E7%2594%259F%25E4%25BF%25A1 HTTP/1.1" 200 7042
+[20/Dec/2018 08:51:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:37] "POST /admin/auth/group/add/?_changelist_filters=q%3D%25E7%2594%259F%25E4%25BF%25A1 HTTP/1.1" 302 0
+[20/Dec/2018 08:51:37] "GET /admin/auth/group/?q=%E7%94%9F%E4%BF%A1 HTTP/1.1" 200 4855
+[20/Dec/2018 08:51:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:42] "GET /admin/auth/ HTTP/1.1" 200 2623
+[20/Dec/2018 08:51:43] "GET /admin/auth/group/ HTTP/1.1" 200 5147
+[20/Dec/2018 08:51:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:44] "GET /admin/auth/group/1/change/ HTTP/1.1" 200 7265
+[20/Dec/2018 08:51:44] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:51:51] "GET /admin/auth/group/ HTTP/1.1" 200 5147
+[20/Dec/2018 08:51:56] "GET /admin/auth/ HTTP/1.1" 200 2623
+[20/Dec/2018 08:51:58] "GET /admin/ HTTP/1.1" 200 6635
+[20/Dec/2018 08:52:00] "GET /admin/lab/project/ HTTP/1.1" 200 18716
+[20/Dec/2018 08:52:00] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:52:03] "GET /admin/ HTTP/1.1" 200 6635
+[20/Dec/2018 08:52:07] "GET /admin/lab/project/ HTTP/1.1" 200 18716
+[20/Dec/2018 08:52:08] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[20/Dec/2018 08:52:16] "GET /admin/ HTTP/1.1" 200 6635
+[20/Dec/2018 08:52:17] "GET /admin/lab/sample/ HTTP/1.1" 200 4080
+[20/Dec/2018 08:52:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7758

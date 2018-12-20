@@ -28,12 +28,12 @@ admin.site.register(User, UserAdmin)
 
 class ProjectAdmin(admin.ModelAdmin):
     
-    list_display = ('name','staff','project_date')
+    list_display = ('name','staff','project_type','project_date',)
     list_filter = ['project_date']
     search_fields = ['name','description']
 
 
-
+    # 只能看到自己项目
     def get_queryset(self, request):
         if request.user.is_superuser or is_manage(request.user) :
             return Project.objects.all()
@@ -47,9 +47,17 @@ class SampleAdmin(admin.ModelAdmin):
     list_filter = ['sample_date']
     search_fields = ['name','description']
 
+    # 只能看到自己项目的样本
     def get_queryset(self, request):
-        if request.user.is_superuser:
+        if request.user.is_superuser or is_manage(request.user) :
             return Sample.objects.all()
         return Sample.objects.filter(project__people__user=request.user)
+
+    # 只能添加自己项目的样本 
+    def get_form(self, request, obj=None, **kwargs):
+        form = super(SampleAdmin, self).get_form(request, obj, **kwargs)
+        form.base_fields['project'].queryset = Project.objects.filter(people__user=request.user)
+        return form
+
 admin.site.register(Sample,SampleAdmin)
 

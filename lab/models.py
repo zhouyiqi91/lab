@@ -50,7 +50,7 @@ class Project(models.Model):
 
     type_choice =(
 	("RD","研发"),
-	("p","项目"),
+	("P","项目"),
     )
 
     name = models.CharField(max_length=30)
@@ -76,9 +76,9 @@ class Sample(models.Model):
     )
 
     species_choice = (
-    ("human","hm"),
-    ("mouse","mm"),
-    ("human_mouse","hm_mm"),
+    ("hm","human"),
+    ("mm","mouse"),
+    ("hm_mm","human_mouse"),
     ("other","other"),
         )
 
