@@ -10,6 +10,14 @@ from django.db.models import Q
 def is_manage(user):
     return user.groups.filter(name='manage').exists()
 
+def is_bioinfo(user):
+    return user.groups.filter(name='bioinfo').exists()
+
+def is_lab(user):
+    return user.groups.filter(name='lab').exists()
+
+
+
 """
 # Define an inline admin descriptor for Employee model
 # which acts a bit like a singleton
@@ -37,11 +45,16 @@ class ProjectAdmin(admin.ModelAdmin):
 
 
     # 只能看到自己项目
+    
     def get_queryset(self, request):
         if request.user.is_superuser or is_manage(request.user) :
             return Project.objects.all()
-        return Project.objects.filter(Q(lab_people=request.user) | Q(bioinfo_people=request.user) | Q(created_by=request.user) )
-
+        elif is_bioinfo(request.user):
+            return Project.objects.filter(bioinfo_people=request.user)
+        elif is_lab(request.user):
+            return Project.objects.filter(lab_people=request.user) 
+        # Q(created_by=request.user) | Q(bioinfo_people=request.user) |Q(created_by=request.user) )
+    
     def save_model(self, request, obj, form, change):
         if not obj.created_by:
             obj.created_by = request.user
@@ -59,13 +72,16 @@ class SampleAdmin(admin.ModelAdmin):
     def get_queryset(self, request):
         if request.user.is_superuser or is_manage(request.user) :
             return Sample.objects.all()
-        return Sample.objects.filter(Q(project__lab_people=request.user) | Q(project__bioinfo_people=request.user) )
+        elif is_lab(request.user):
+            return Sample.objects.filter(project__lab_people=request.user)
+        elif is_bioinfo(request.user):
+            return Sample.objects.filter(project__bioinfo_people=request.user)
 
     # 只能添加自己项目的样本     
     def get_form(self, request, obj=None, **kwargs):
         form = super(SampleAdmin, self).get_form(request, obj, **kwargs)
         if not(request.user.is_superuser or is_manage(request.user)):
-            form.base_fields['project'].queryset = Project.objects.filter(Q(lab_people=request.user) | Q(bioinfo_people=request.user) )
+            form.base_fields['project'].queryset = Project.objects.filter(lab_people=request.user)
         return form
     
 

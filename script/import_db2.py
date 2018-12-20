@@ -36,6 +36,6 @@ with open(csv_file,"r") as infile:
             pinyin = name_dic[people]
             lab = User.objects.get(username=pinyin)        
             entry2.lab_people.add(lab)
-            bioinfo = User.objects.get(username="hulongfei") 
-            entry2.bioinfo_people.add(bioinfo)
+        bioinfo = User.objects.get(username="hulongfei") 
+        entry2.bioinfo_people.add(bioinfo)
 
