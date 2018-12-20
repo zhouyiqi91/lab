@@ -1,7 +1,7 @@
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import User,Group
 
-from lab.models import Project,Employee
+from lab.models import Project
 
 csv_file = "data.csv"
 sgr_name = "sgr_name.csv"
@@ -33,5 +33,8 @@ with open(csv_file,"r") as infile:
         entry2 = Project.objects.create(name=name,project_type=p_type,project_date=p_date,description = description)
         for people in peoples:
             pinyin = name_dic[people]
-            entry1 = Employee.objects.get(user__username=pinyin)        
-            entry2.people.add(entry1)
+            lab = User.objects.get(username=pinyin)        
+            entry2.lab_people.add(lab)
+            bioinfo = User.objects.get(username="hulongfei") 
+            entry2.bioinfo_people.add(bioinfo)
+
