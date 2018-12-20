@@ -51,7 +51,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'lab_project.urls'
-MEDIA_ROOT='/SGRNJ/Database/media/'
+MEDIA_ROOT='/'
 MEDIA_URL = '/media/'
 
 TEMPLATES = [
