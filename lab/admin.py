@@ -8,6 +8,7 @@ from models import *
 from django.db.models import Q
 from django.http import HttpResponse
 import csv
+from django_admin_listfilter_dropdown.filters import DropdownFilter, ChoiceDropdownFilter, RelatedDropdownFilter
 
 def is_manage(user):
     return user.groups.filter(name='manage').exists()
@@ -36,11 +37,9 @@ class ProjectAdmin(admin.ModelAdmin):
     export_as_csv.short_description = "输出选中项为csv"
 
     #exclude = ('project_id',)   
-    list_display = ('name','lab_staff','project_type','project_date','sample_number','bioinfo_staff')
-    #list_filter = ['project_date']
+    list_display = ('name','p_id','project_type','samples','lab_staff','project_date','bioinfo_staff','view_link')
     search_fields = ['name','lab_staff','project_type','project_date','bioinfo_staff','description']
     actions = ["export_as_csv"]
-
     # 只能看到自己项目
     
     def get_queryset(self, request):
@@ -78,7 +77,7 @@ class SampleAdmin(admin.ModelAdmin):
     export_as_csv.short_description = "输出选中项为csv"
 
     list_display = ('name','p_id','sample_date','library','view_link')
-    #list_filter = ['sample_date']
+    list_filter = ( ('project',RelatedDropdownFilter),)
     search_fields = ['name','sample_date','library_id','description']
     actions = ["export_as_csv"]
 

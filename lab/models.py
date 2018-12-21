@@ -60,13 +60,14 @@ class Project(models.Model):
     )
 
     name = models.CharField(max_length=80)
-    project_type = models.CharField(max_length=2,choices=type_choice)
+    project_type = models.CharField(verbose_name="type",max_length=2,choices=type_choice)
     project_date = models.DateField()
     lab_people = models.ManyToManyField(User,related_name="lab_staff",limit_choices_to=Q(groups__name="lab") )
     bioinfo_people = models.ManyToManyField(User,related_name="bioinfo_staff",limit_choices_to=Q(groups__name="bioinfo") )
     description = models.TextField(max_length=300,blank=True)
     p_id = models.CharField(max_length=30,blank=True)
     created_by = models.ForeignKey(User,editable=False,null=True,blank=True)
+    report = models.CharField(max_length=255,blank=True)
 
     def lab_staff(self):
         return ",".join([p.__str__() for p in self.lab_people.all()])
@@ -74,12 +75,20 @@ class Project(models.Model):
     def bioinfo_staff(self):
         return ",".join([p.__str__() for p in self.bioinfo_people.all()])
 
-    def sample_number(self):
+    def samples(self):
         number = 0
         samples = self.s_project.all()
         for sample in samples:
             number += 1
         return str(number) 
+        
+    def view_link(self):
+        if self.report:
+            return "<a href=/media%s>View</a>" % self.report
+        else:
+            return ""
+    view_link.short_description = 'Report'
+    view_link.allow_tags = True
 
 
 
