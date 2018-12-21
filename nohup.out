@@ -11823,3 +11823,43 @@ Quit the server with CONTROL-C.
 [21/Dec/2018 14:32:45] "GET /admin/lab/sample/?project__id__exact=29 HTTP/1.1" 200 12253
 [21/Dec/2018 14:32:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
 [21/Dec/2018 14:33:03] "GET /admin/logout/ HTTP/1.1" 200 1019
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 21, 2018 - 14:27:59
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[21/Dec/2018 14:44:00] "GET /admin/ HTTP/1.1" 302 0
+[21/Dec/2018 14:44:00] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[21/Dec/2018 14:44:07] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[21/Dec/2018 14:44:07] "GET /admin/ HTTP/1.1" 200 2741
+[21/Dec/2018 14:44:09] "GET /admin/lab/sample/ HTTP/1.1" 200 49452
+[21/Dec/2018 14:44:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:44:16] "GET /admin/lab/sample/?sample_date__gte=2018-12-21&sample_date__lt=2018-12-22 HTTP/1.1" 200 25941
+[21/Dec/2018 14:44:16] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:44:17] "GET /admin/lab/sample/?sample_date__gte=2018-12-14&sample_date__lt=2018-12-22 HTTP/1.1" 200 25941
+[21/Dec/2018 14:44:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:44:37] "GET /admin/lab/sample/?sample_date__gte=2018-12-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 25941
+[21/Dec/2018 14:44:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:44:40] "GET /admin/lab/sample/?sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 60226
+[21/Dec/2018 14:44:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:44:56] "GET /admin/lab/sample/264/change/?_changelist_filters=sample_date__lt%3D2019-01-01%26sample_date__gte%3D2018-01-01 HTTP/1.1" 200 9349
+[21/Dec/2018 14:44:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:45:01] "GET /admin/lab/sample/?sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 60226
+[21/Dec/2018 14:45:05] "GET /admin/lab/sample/? HTTP/1.1" 200 49452
+[21/Dec/2018 14:45:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:45:12] "GET /admin/lab/sample/?sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 60226
+[21/Dec/2018 14:45:13] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:45:17] "GET /admin/lab/sample/?sample_date__gte=2018-12-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 25941
+[21/Dec/2018 14:45:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:45:18] "GET /admin/lab/sample/?sample_date__gte=2018-12-14&sample_date__lt=2018-12-22 HTTP/1.1" 200 25941
+[21/Dec/2018 14:45:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:45:20] "GET /admin/lab/sample/?sample_date__gte=2018-12-21&sample_date__lt=2018-12-22 HTTP/1.1" 200 25941
+[21/Dec/2018 14:45:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:45:34] "GET /admin/lab/ HTTP/1.1" 200 2581
+[21/Dec/2018 14:45:36] "GET /admin/lab/project/ HTTP/1.1" 200 24305
+[21/Dec/2018 14:45:36] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:45:47] "GET /admin/lab/ HTTP/1.1" 200 2581
+[21/Dec/2018 14:45:48] "GET /admin/lab/sample/ HTTP/1.1" 200 49452
+[21/Dec/2018 14:45:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
