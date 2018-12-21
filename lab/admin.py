@@ -6,6 +6,8 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth.models import User
 from models import *
 from django.db.models import Q
+from django.http import HttpResponse
+import csv
 
 def is_manage(user):
     return user.groups.filter(name='manage').exists()
@@ -16,33 +18,28 @@ def is_bioinfo(user):
 def is_lab(user):
     return user.groups.filter(name='lab').exists()
 
-
-
-"""
-# Define an inline admin descriptor for Employee model
-# which acts a bit like a singleton
-class EmployeeInline(admin.StackedInline):
-    model = Employee
-    can_delete = False
-    verbose_name_plural = '部门'
-
-# Define a new User admin
-class UserAdmin(BaseUserAdmin):
-    inlines = (EmployeeInline, ) 
-    #list_display=['username']
-
-# Re-register UserAdmin
-admin.site.unregister(User)
-admin.site.register(User, UserAdmin)
-"""
-
 class ProjectAdmin(admin.ModelAdmin):
+    def export_as_csv(self, request, queryset):
+
+        meta = self.model._meta
+        field_names = [field.name for field in meta.fields]
+
+        response = HttpResponse(content_type='text/csv')
+        response['Content-Disposition'] = 'attachment; filename={}.csv'.format(meta)
+        writer = csv.writer(response)
+
+        writer.writerow(field_names)
+        for obj in queryset:
+            row = writer.writerow([getattr(obj, field) for field in field_names])
+        return response
+
+    export_as_csv.short_description = "输出选中项为csv"
 
     #exclude = ('project_id',)   
     list_display = ('name','lab_staff','project_type','project_date','sample_number','bioinfo_staff')
     #list_filter = ['project_date']
     search_fields = ['name','lab_staff','project_type','project_date','bioinfo_staff','description']
-
+    actions = ["export_as_csv"]
 
     # 只能看到自己项目
     
@@ -64,9 +61,26 @@ admin.site.register(Project,ProjectAdmin)
 
 class SampleAdmin(admin.ModelAdmin):
 
+    def export_as_csv(self, request, queryset):
+
+        meta = self.model._meta
+        field_names = [field.name for field in meta.fields]
+
+        response = HttpResponse(content_type='text/csv')
+        response['Content-Disposition'] = 'attachment; filename={}.csv'.format(meta)
+        writer = csv.writer(response)
+
+        writer.writerow(field_names)
+        for obj in queryset:
+            row = writer.writerow([getattr(obj, field) for field in field_names])
+
+        return response
+    export_as_csv.short_description = "输出选中项为csv"
+
     list_display = ('name','p_id','sample_date','library','view_link')
     #list_filter = ['sample_date']
     search_fields = ['name','sample_date','library_id','description']
+    actions = ["export_as_csv"]
 
     # 只能看到自己项目的样本
     def get_queryset(self, request):
