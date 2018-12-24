@@ -11863,3 +11863,915 @@ Quit the server with CONTROL-C.
 [21/Dec/2018 14:45:47] "GET /admin/lab/ HTTP/1.1" 200 2581
 [21/Dec/2018 14:45:48] "GET /admin/lab/sample/ HTTP/1.1" 200 49452
 [21/Dec/2018 14:45:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:49:47] "GET /admin/ HTTP/1.1" 200 2741
+[21/Dec/2018 14:50:59] "GET /admin/lab/sample/ HTTP/1.1" 200 49452
+[21/Dec/2018 14:50:59] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:51:06] "GET /admin/lab/sample/?sample_date__gte=2018-12-14&sample_date__lt=2018-12-22 HTTP/1.1" 200 25941
+[21/Dec/2018 14:51:06] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:51:09] "GET /admin/lab/sample/?sample_date__gte=2018-12-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 25941
+[21/Dec/2018 14:51:10] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:51:15] "GET /admin/lab/sample/?o=3&sample_date__gte=2018-12-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 26891
+[21/Dec/2018 14:51:15] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:51:19] "GET /admin/lab/sample/?o=3&sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 62080
+[21/Dec/2018 14:51:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 14:51:29] "GET /admin/lab/sample/?o=3&sample_date__gte=2018-12-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 26891
+[21/Dec/2018 15:43:42] "GET /admin/ HTTP/1.1" 200 5782
+[21/Dec/2018 15:43:51] "GET /admin/lab/project/ HTTP/1.1" 200 10439
+[21/Dec/2018 15:43:52] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 15:43:52] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[21/Dec/2018 15:43:57] "GET /admin/lab/ HTTP/1.1" 200 2581
+[21/Dec/2018 15:43:59] "GET /admin/lab/project/ HTTP/1.1" 200 10439
+[21/Dec/2018 15:43:59] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:32:14] "GET /admin/ HTTP/1.1" 200 2741
+[21/Dec/2018 16:32:20] "GET /admin/logout/ HTTP/1.1" 200 1019
+[21/Dec/2018 16:32:21] "GET /admin/ HTTP/1.1" 302 0
+[21/Dec/2018 16:32:22] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[21/Dec/2018 16:32:27] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+[21/Dec/2018 16:32:32] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[21/Dec/2018 16:32:32] "GET /admin/ HTTP/1.1" 200 6264
+[21/Dec/2018 16:32:38] "GET /admin/lab/sample/ HTTP/1.1" 200 49447
+[21/Dec/2018 16:32:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:33:13] "GET /admin/lab/sample/?sample_date__gte=2018-12-14&sample_date__lt=2018-12-22 HTTP/1.1" 200 25936
+[21/Dec/2018 16:33:13] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:33:17] "GET /admin/lab/sample/?sample_date__gte=2018-12-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 25936
+[21/Dec/2018 16:33:17] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:33:21] "GET /admin/lab/sample/?sample_date__gte=2018-12-21&sample_date__lt=2018-12-22 HTTP/1.1" 200 25936
+[21/Dec/2018 16:33:21] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:33:22] "GET /admin/lab/sample/?sample_date__gte=2018-12-14&sample_date__lt=2018-12-22 HTTP/1.1" 200 25936
+[21/Dec/2018 16:33:22] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:33:23] "GET /admin/lab/sample/?sample_date__gte=2018-12-21&sample_date__lt=2018-12-22 HTTP/1.1" 200 25936
+[21/Dec/2018 16:33:23] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:33:25] "GET /admin/lab/sample/?sample_date__gte=2018-12-14&sample_date__lt=2018-12-22 HTTP/1.1" 200 25936
+[21/Dec/2018 16:33:25] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:33:28] "GET /admin/lab/sample/?sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 60221
+[21/Dec/2018 16:33:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:33:39] "GET /admin/lab/ HTTP/1.1" 200 2576
+[21/Dec/2018 16:33:41] "GET /admin/lab/sample/ HTTP/1.1" 200 49447
+[21/Dec/2018 16:33:41] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:33:44] "GET /admin/lab/ HTTP/1.1" 200 2576
+[21/Dec/2018 16:33:45] "GET /admin/lab/project/ HTTP/1.1" 200 24300
+[21/Dec/2018 16:33:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:33:54] "GET /admin/lab/project/34/change/ HTTP/1.1" 200 9753
+[21/Dec/2018 16:33:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:35:03] "GET /admin/lab/project/ HTTP/1.1" 200 24300
+[21/Dec/2018 16:35:09] "GET /admin/lab/ HTTP/1.1" 200 2576
+[21/Dec/2018 16:35:10] "GET /admin/lab/sample/ HTTP/1.1" 200 49447
+[21/Dec/2018 16:35:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:35:30] "GET /admin/lab/ HTTP/1.1" 200 2576
+[21/Dec/2018 16:35:31] "GET /admin/lab/project/ HTTP/1.1" 200 24300
+[21/Dec/2018 16:35:31] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:35:35] "GET /admin/lab/project/27/change/ HTTP/1.1" 200 9669
+[21/Dec/2018 16:35:35] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:35:52] "GET /admin/logout/ HTTP/1.1" 200 1019
+[21/Dec/2018 16:35:53] "GET /admin/ HTTP/1.1" 302 0
+[21/Dec/2018 16:35:53] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[21/Dec/2018 16:36:00] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[21/Dec/2018 16:36:00] "GET /admin/ HTTP/1.1" 200 2740
+[21/Dec/2018 16:36:02] "GET /admin/lab/project/ HTTP/1.1" 200 3380
+[21/Dec/2018 16:36:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:36:03] "GET /admin/ HTTP/1.1" 200 2740
+[21/Dec/2018 16:36:03] "GET /admin/lab/sample/ HTTP/1.1" 200 8383
+[21/Dec/2018 16:36:03] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[21/Dec/2018 16:36:05] "GET /admin/ HTTP/1.1" 200 2740
+[21/Dec/2018 16:36:09] "GET /admin/lab/project/add/ HTTP/1.1" 200 8814
+[21/Dec/2018 16:36:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Traceback (most recent call last):
+  File "manage.py", line 8, in <module>
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "manage.py", line 14, in <module>
+    import django
+ModuleNotFoundError: No module named 'django'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "manage.py", line 17, in <module>
+    "Couldn't import Django. Are you sure it's installed and "
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Error: That port is already in use.
+[24/Dec/2018 08:12:08] "GET /admin/ HTTP/1.1" 200 2740
+Not Found: /favicon.ico
+[24/Dec/2018 08:12:08] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 08:12:12] "GET /admin/ HTTP/1.1" 200 2740
+[24/Dec/2018 08:12:20] "GET /admin/ HTTP/1.1" 200 2740
+[24/Dec/2018 08:12:22] "GET /admin/lab/project/ HTTP/1.1" 200 3380
+[24/Dec/2018 08:12:22] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:10] "GET /admin/logout/ HTTP/1.1" 200 1019
+[24/Dec/2018 08:13:11] "GET /admin/ HTTP/1.1" 302 0
+[24/Dec/2018 08:13:12] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[24/Dec/2018 08:13:16] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[24/Dec/2018 08:13:16] "GET /admin/ HTTP/1.1" 200 6264
+[24/Dec/2018 08:13:20] "GET /admin/lab/project/ HTTP/1.1" 200 24300
+[24/Dec/2018 08:13:20] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:22] "GET /admin/ HTTP/1.1" 200 6264
+[24/Dec/2018 08:13:24] "GET /admin/lab/sample/ HTTP/1.1" 200 49447
+[24/Dec/2018 08:13:24] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:28] "GET /admin/lab/sample/?project__id__exact=30 HTTP/1.1" 200 9265
+[24/Dec/2018 08:13:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:31] "GET /admin/lab/sample/?project__id__exact=23 HTTP/1.1" 200 9265
+[24/Dec/2018 08:13:31] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:33] "GET /admin/lab/sample/?project__id__exact=13 HTTP/1.1" 200 14048
+[24/Dec/2018 08:13:33] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:38] "GET /admin/lab/sample/?project__id__exact=2 HTTP/1.1" 200 13695
+[24/Dec/2018 08:13:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:41] "GET /admin/lab/sample/125/change/?_changelist_filters=project__id__exact%3D2 HTTP/1.1" 200 11684
+[24/Dec/2018 08:13:41] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:46] "GET /admin/lab/sample/?project__id__exact=2 HTTP/1.1" 200 13695
+[24/Dec/2018 08:13:48] "GET /admin/lab/sample/?project__id__exact=7 HTTP/1.1" 200 12061
+[24/Dec/2018 08:13:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:52] "GET /admin/lab/sample/?project__id__exact=7&sample_date__gte=2018-12-17&sample_date__lt=2018-12-25 HTTP/1.1" 200 11662
+[24/Dec/2018 08:13:52] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:53] "GET /admin/lab/sample/?project__id__exact=7&sample_date__gte=2018-12-24&sample_date__lt=2018-12-25 HTTP/1.1" 200 11662
+[24/Dec/2018 08:13:53] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:54] "GET /admin/lab/sample/?project__id__exact=7&sample_date__gte=2018-12-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 11662
+[24/Dec/2018 08:13:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:13:55] "GET /admin/lab/sample/?project__id__exact=7&sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 14843
+[24/Dec/2018 08:13:55] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:14:00] "GET /admin/lab/sample/?project__id__exact=34&sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 11669
+[24/Dec/2018 08:14:00] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:14:02] "GET /admin/lab/sample/?project__id__exact=33&sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 57662
+[24/Dec/2018 08:14:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:14:08] "GET /admin/lab/sample/?project__id__exact=28&sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 15967
+[24/Dec/2018 08:14:08] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:14:14] "GET /admin/lab/sample/?project__id__exact=28&sample_date__gte=2018-12-24&sample_date__lt=2018-12-25 HTTP/1.1" 200 11669
+[24/Dec/2018 08:14:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:14:16] "GET /admin/lab/sample/?project__id__exact=20&sample_date__gte=2018-12-24&sample_date__lt=2018-12-25 HTTP/1.1" 200 11669
+[24/Dec/2018 08:14:16] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:14:19] "GET /admin/lab/sample/?sample_date__gte=2018-12-24&sample_date__lt=2018-12-25 HTTP/1.1" 200 11453
+[24/Dec/2018 08:14:19] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:14:22] "GET /admin/lab/sample/?sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 60221
+[24/Dec/2018 08:14:22] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:14:27] "POST /admin/lab/sample/?sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 30385
+[24/Dec/2018 08:15:02] "POST /admin/lab/sample/?sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 30385
+[24/Dec/2018 08:15:33] "GET /admin/lab/sample/?project__id__exact=16&sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 13332
+[24/Dec/2018 08:15:33] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:15:36] "GET /admin/lab/sample/?project__id__exact=5&sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 18975
+[24/Dec/2018 08:15:36] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:15:42] "POST /admin/lab/sample/?project__id__exact=5&sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 1666
+[24/Dec/2018 08:16:17] "GET / HTTP/1.1" 200 52
+[24/Dec/2018 08:16:18] "GET /admin/lab/sample/?project__id__exact=5&sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 18975
+[24/Dec/2018 08:16:20] "GET /admin/password_change/ HTTP/1.1" 200 2525
+[24/Dec/2018 08:16:21] "GET /admin/lab/sample/?project__id__exact=5&sample_date__gte=2018-01-01&sample_date__lt=2019-01-01 HTTP/1.1" 200 18975
+[24/Dec/2018 08:18:32] "GET /admin/ HTTP/1.1" 200 6264
+[24/Dec/2018 08:44:31] "GET /admin/ HTTP/1.1" 302 0
+[24/Dec/2018 08:44:32] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[24/Dec/2018 08:44:32] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[24/Dec/2018 08:44:32] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[24/Dec/2018 08:44:32] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+Not Found: /favicon.ico
+[24/Dec/2018 08:44:32] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 08:44:32] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[24/Dec/2018 08:44:32] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[24/Dec/2018 08:44:46] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[24/Dec/2018 08:44:46] "GET /admin/ HTTP/1.1" 200 2740
+[24/Dec/2018 08:44:46] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[24/Dec/2018 08:44:46] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+Not Found: /favicon.ico
+[24/Dec/2018 08:44:46] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 08:44:46] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[24/Dec/2018 08:44:46] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[24/Dec/2018 08:44:49] "GET /admin/lab/project/ HTTP/1.1" 200 5917
+[24/Dec/2018 08:44:49] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:44:49] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[24/Dec/2018 08:44:49] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[24/Dec/2018 08:44:49] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[24/Dec/2018 08:44:49] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[24/Dec/2018 08:44:49] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[24/Dec/2018 08:44:49] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[24/Dec/2018 08:44:49] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[24/Dec/2018 08:44:49] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[24/Dec/2018 08:44:49] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[24/Dec/2018 08:44:49] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[24/Dec/2018 08:44:49] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[24/Dec/2018 08:44:55] "GET /admin/ HTTP/1.1" 200 2740
+[24/Dec/2018 08:44:57] "GET /admin/lab/sample/ HTTP/1.1" 200 11534
+[24/Dec/2018 08:44:57] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:45:07] "GET /admin/ HTTP/1.1" 200 2740
+[24/Dec/2018 08:45:08] "GET /admin/lab/sample/add/ HTTP/1.1" 200 8865
+[24/Dec/2018 08:45:08] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[24/Dec/2018 08:45:08] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:45:08] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[24/Dec/2018 08:45:08] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[24/Dec/2018 08:45:08] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[24/Dec/2018 08:45:08] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[24/Dec/2018 08:45:08] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[24/Dec/2018 08:45:09] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+[24/Dec/2018 08:45:09] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[24/Dec/2018 08:47:34] "GET /admin/lab/project/ HTTP/1.1" 200 24300
+[24/Dec/2018 08:47:34] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:47:38] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 08:47:39] "GET /admin/lab/sample/ HTTP/1.1" 200 49447
+[24/Dec/2018 08:47:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:48:38] "GET /admin/lab/sample/ HTTP/1.1" 200 49447
+[24/Dec/2018 08:48:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:48:42] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 08:48:43] "GET /admin/lab/project/ HTTP/1.1" 200 24300
+[24/Dec/2018 08:48:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:48:54] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 08:48:54] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9085
+[24/Dec/2018 08:48:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:48:55] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[24/Dec/2018 08:48:56] "GET /admin/lab/project/30/change/ HTTP/1.1" 200 9684
+[24/Dec/2018 08:48:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:48:58] "GET /admin/lab/project/ HTTP/1.1" 200 24300
+[24/Dec/2018 08:49:03] "GET /admin/lab/project/29/change/ HTTP/1.1" 200 9701
+[24/Dec/2018 08:49:03] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:49:05] "GET /admin/lab/project/ HTTP/1.1" 200 24300
+[24/Dec/2018 08:49:07] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 08:49:08] "GET /admin/lab/sample/ HTTP/1.1" 200 49455
+[24/Dec/2018 08:49:08] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:49:13] "GET /admin/lab/sample/?project__id__exact=29 HTTP/1.1" 200 12970
+[24/Dec/2018 08:49:13] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:49:21] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 08:49:25] "GET /admin/lab/project/ HTTP/1.1" 200 24300
+[24/Dec/2018 08:49:25] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:49:32] "GET /admin/lab/project/29/change/ HTTP/1.1" 200 9701
+[24/Dec/2018 08:49:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:49:40] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 08:49:40] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9085
+[24/Dec/2018 08:49:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:49:53] "GET /admin/lab/project/ HTTP/1.1" 200 24300
+[24/Dec/2018 08:50:01] "GET /admin/lab/project/30/change/ HTTP/1.1" 200 9684
+[24/Dec/2018 08:50:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:50:04] "GET /admin/lab/project/ HTTP/1.1" 200 24300
+[24/Dec/2018 08:50:21] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 08:50:21] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9087
+[24/Dec/2018 08:50:21] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:50:45] "GET /admin/lab/project/29/change/ HTTP/1.1" 200 9701
+[24/Dec/2018 08:50:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:50:56] "POST /admin/lab/project/29/change/ HTTP/1.1" 302 0
+[24/Dec/2018 08:50:56] "GET /admin/lab/project/ HTTP/1.1" 200 24593
+[24/Dec/2018 08:50:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:50:58] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/FastQC_LCP02.raw.png HTTP/1.1" 200 139322
+[24/Dec/2018 08:50:58] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/FastQC_LCP02.clean.png HTTP/1.1" 200 120117
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/LCP01_Region.svg HTTP/1.1" 200 80643
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/LCP01_UMIcounts.svg HTTP/1.1" 200 135783
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/LCP01.biotype_pct.svg HTTP/1.1" 200 123896
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/LCP01_downsampleMedianGenes.svg HTTP/1.1" 200 75260
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/LCP01_downsampleSaturation.svg HTTP/1.1" 200 73825
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/1.QC_mito/LCP01.Mitopercent.png HTTP/1.1" 200 29931
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/2.Cluster/LCP01.PercentPerCell.png HTTP/1.1" 200 16605
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/1.QC_mito/LCP01.QC_umapFeatureplot.svg HTTP/1.1" 200 501745
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/1.QC_mito/LCP01.QC_tsneFeatureplot.svg HTTP/1.1" 200 499702
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/2.Cluster/LCP01.corrplot.png HTTP/1.1" 200 18374
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/P2018008.report.html HTTP/1.1" 200 4585140
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/3.RD/LCP01.PCElbowPlot.png HTTP/1.1" 200 10597
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/3.RD/LCP01.PCA.png HTTP/1.1" 200 31402
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/3.RD/LCP01.umap.png HTTP/1.1" 200 29260
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/3.RD/LCP01.tsne.png HTTP/1.1" 200 42623
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/7.monocle/LCP01.trajectories_cluster.png HTTP/1.1" 200 24640
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/7.monocle/LCP01.Pseudotime_cluster.png HTTP/1.1" 200 27716
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.markergene_vlnplot1.png HTTP/1.1" 200 28539
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.markergene_DOHeatmapplot.png HTTP/1.1" 200 19684
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.markergene_Dotplot.png HTTP/1.1" 200 22664
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.cluster_Heatmapplot.png HTTP/1.1" 200 12009
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.markergene_tsneFeatureplot1.png HTTP/1.1" 200 48455
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.markergene_umapFeatureplot1.png HTTP/1.1" 200 35666
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.top10markergene_DOHeatmapplot.png HTTP/1.1" 200 50355
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_GOdot.svg HTTP/1.1" 200 192740
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_GObar.svg HTTP/1.1" 200 193856
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_Reactomebar.svg HTTP/1.1" 200 162623
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_Reactomedot.svg HTTP/1.1" 200 183696
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_KEGGbar.svg HTTP/1.1" 200 155123
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_KEGGdot.svg HTTP/1.1" 200 172652
+[24/Dec/2018 08:50:59] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/hsa00190_pathway.png HTTP/1.1" 200 105741
+[24/Dec/2018 08:51:00] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/2.Cluster/LCP01.Hcluster.svg HTTP/1.1" 200 2610758
+[24/Dec/2018 08:51:04] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 08:51:05] "GET /admin/lab/sample/ HTTP/1.1" 200 13302
+[24/Dec/2018 08:51:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:51:25] "GET /admin/lab/project/ HTTP/1.1" 200 24375
+[24/Dec/2018 08:51:41] "GET /admin/lab/project/ HTTP/1.1" 200 24375
+[24/Dec/2018 08:51:47] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 08:51:49] "GET /admin/lab/sample/ HTTP/1.1" 200 49486
+[24/Dec/2018 08:51:49] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:51:50] "GET /admin/lab/sample/268/change/ HTTP/1.1" 200 11617
+[24/Dec/2018 08:51:50] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:52:02] "GET /admin/lab/sample/ HTTP/1.1" 200 49486
+[24/Dec/2018 08:52:07] "GET /admin/lab/sample/268/change/ HTTP/1.1" 200 11617
+[24/Dec/2018 08:52:07] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:52:10] "GET /admin/lab/sample/ HTTP/1.1" 200 49486
+[24/Dec/2018 08:52:14] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 08:52:16] "GET /admin/lab/sample/ HTTP/1.1" 200 49486
+[24/Dec/2018 08:52:27] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 08:52:28] "GET /admin/lab/project/ HTTP/1.1" 200 24375
+[24/Dec/2018 08:52:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:52:36] "GET /admin/lab/project/28/change/ HTTP/1.1" 200 9669
+[24/Dec/2018 08:52:36] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:52:41] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 08:52:44] "GET /admin/lab/project/ HTTP/1.1" 200 24375
+[24/Dec/2018 08:52:44] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:52:46] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 08:56:48] "GET /admin/lab/sample/?all= HTTP/1.1" 200 52649
+[24/Dec/2018 08:56:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:56:58] "GET /admin/lab/sample/?all=&p=2 HTTP/1.1" 200 33770
+[24/Dec/2018 08:56:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:57:02] "GET /admin/lab/sample/?all=&p=0 HTTP/1.1" 200 53457
+[24/Dec/2018 08:57:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:57:10] "GET /admin/lab/sample/?all=&p=1 HTTP/1.1" 200 55094
+[24/Dec/2018 08:57:10] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:57:13] "GET /admin/lab/ HTTP/1.1" 200 2578
+[24/Dec/2018 08:57:14] "GET /admin/lab/project/ HTTP/1.1" 200 24377
+[24/Dec/2018 08:57:15] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 08:57:16] "GET / HTTP/1.1" 200 52
+[24/Dec/2018 08:57:20] "GET /admin/lab/project/ HTTP/1.1" 200 24377
+[24/Dec/2018 09:24:17] "GET /admin/ HTTP/1.1" 302 0
+[24/Dec/2018 09:24:17] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[24/Dec/2018 09:24:17] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[24/Dec/2018 09:24:17] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[24/Dec/2018 09:24:18] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+Not Found: /favicon.ico
+[24/Dec/2018 09:24:18] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 09:24:18] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[24/Dec/2018 09:24:18] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[24/Dec/2018 09:25:01] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[24/Dec/2018 09:25:01] "GET /admin/ HTTP/1.1" 200 2740
+[24/Dec/2018 09:25:01] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+Not Found: /favicon.ico
+[24/Dec/2018 09:25:01] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 09:25:01] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[24/Dec/2018 09:25:01] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[24/Dec/2018 09:25:01] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[24/Dec/2018 09:25:05] "GET /admin/lab/project/ HTTP/1.1" 200 12030
+[24/Dec/2018 09:25:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 09:25:05] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[24/Dec/2018 09:25:05] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[24/Dec/2018 09:25:05] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[24/Dec/2018 09:25:05] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[24/Dec/2018 09:25:05] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[24/Dec/2018 09:25:05] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[24/Dec/2018 09:25:05] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[24/Dec/2018 09:25:05] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[24/Dec/2018 09:25:05] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[24/Dec/2018 09:25:05] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[24/Dec/2018 09:25:05] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[24/Dec/2018 09:26:28] "GET /admin/lab/project/ HTTP/1.1" 200 12030
+[24/Dec/2018 09:26:28] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[24/Dec/2018 09:26:28] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[24/Dec/2018 09:26:28] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[24/Dec/2018 09:26:28] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[24/Dec/2018 09:26:28] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[24/Dec/2018 09:26:28] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[24/Dec/2018 09:26:28] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[24/Dec/2018 09:26:28] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[24/Dec/2018 09:26:28] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[24/Dec/2018 09:26:28] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[24/Dec/2018 09:26:28] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[24/Dec/2018 09:26:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 09:26:28] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[24/Dec/2018 09:26:43] "GET /admin/ HTTP/1.1" 200 2740
+[24/Dec/2018 09:26:46] "GET /admin/lab/sample/ HTTP/1.1" 200 37703
+[24/Dec/2018 09:26:46] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 10:53:25] "GET /admin/lab/project/ HTTP/1.1" 200 24375
+[24/Dec/2018 10:53:25] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 10:53:29] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 10:53:30] "GET /admin/lab/sample/ HTTP/1.1" 200 49486
+[24/Dec/2018 10:53:31] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 10:53:38] "GET /admin/lab/sample/266/change/ HTTP/1.1" 200 11612
+[24/Dec/2018 10:53:39] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 10:53:49] "GET /admin/lab/sample/ HTTP/1.1" 200 49486
+[24/Dec/2018 10:53:50] "GET /admin/lab/sample/268/change/ HTTP/1.1" 200 11617
+[24/Dec/2018 10:53:51] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 10:53:56] "GET /admin/lab/sample/ HTTP/1.1" 200 49486
+[24/Dec/2018 10:53:58] "GET /admin/lab/sample/266/change/ HTTP/1.1" 200 11612
+[24/Dec/2018 10:53:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 10:54:20] "GET /admin/lab/sample/ HTTP/1.1" 200 49486
+[24/Dec/2018 10:54:48] "GET /admin/lab/sample/?project__id__exact=7 HTTP/1.1" 200 13829
+[24/Dec/2018 10:54:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 11:12:02] "GET /admin/ HTTP/1.1" 200 3935
+[24/Dec/2018 11:13:05] "GET /admin/lab/project/ HTTP/1.1" 200 5917
+[24/Dec/2018 11:13:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 11:13:07] "GET /admin/lab/project/7/change/ HTTP/1.1" 200 9199
+[24/Dec/2018 11:13:07] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 11:13:11] "GET /admin/lab/project/ HTTP/1.1" 200 5917
+[24/Dec/2018 11:13:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 11:13:13] "GET /admin/ HTTP/1.1" 200 3935
+[24/Dec/2018 11:13:15] "GET /admin/lab/sample/ HTTP/1.1" 200 13130
+[24/Dec/2018 11:13:15] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 12:05:56] "GET /admin/lab/sample/268/change/?_changelist_filters=project__id__exact%3D7 HTTP/1.1" 200 11746
+[24/Dec/2018 12:05:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 12:05:58] "GET /admin/lab/sample/268/history/?_changelist_filters=project__id__exact%3D7 HTTP/1.1" 200 2114
+[24/Dec/2018 12:06:04] "GET /admin/logout/ HTTP/1.1" 200 1019
+[24/Dec/2018 13:22:19] "GET /admin/logout/ HTTP/1.1" 302 0
+[24/Dec/2018 13:22:19] "GET /admin/ HTTP/1.1" 302 0
+[24/Dec/2018 13:22:20] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[24/Dec/2018 14:30:57] "GET /admin/ HTTP/1.1" 302 0
+[24/Dec/2018 14:30:57] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[24/Dec/2018 14:39:57] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[24/Dec/2018 14:39:57] "GET /admin/ HTTP/1.1" 200 6364
+[24/Dec/2018 14:40:00] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 14:40:38] "GET /admin/lab/project/ HTTP/1.1" 200 24375
+[24/Dec/2018 14:40:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:40:57] "GET /admin/lab/project/ HTTP/1.1" 200 24375
+[24/Dec/2018 14:41:23] "GET /admin/lab/project/34/change/ HTTP/1.1" 200 9753
+[24/Dec/2018 14:41:24] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:41:32] "GET /admin/lab/project/ HTTP/1.1" 200 24375
+[24/Dec/2018 14:41:33] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 14:41:35] "GET /admin/lab/sample/ HTTP/1.1" 200 49486
+[24/Dec/2018 14:41:35] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:41:43] "GET /admin/ HTTP/1.1" 200 2740
+[24/Dec/2018 14:41:43] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[24/Dec/2018 14:41:43] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[24/Dec/2018 14:41:43] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Dec/2018 14:41:43] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[24/Dec/2018 14:41:43] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[24/Dec/2018 14:41:43] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[24/Dec/2018 14:41:43] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[24/Dec/2018 14:41:43] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+Not Found: /favicon.ico
+[24/Dec/2018 14:41:43] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:41:44] "GET /admin/lab/sample/?project__id__exact=3 HTTP/1.1" 200 13800
+[24/Dec/2018 14:41:44] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:41:49] "GET /admin/lab/project/ HTTP/1.1" 200 11491
+[24/Dec/2018 14:41:50] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:41:50] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[24/Dec/2018 14:41:50] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[24/Dec/2018 14:41:50] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[24/Dec/2018 14:41:50] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[24/Dec/2018 14:41:50] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[24/Dec/2018 14:41:50] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[24/Dec/2018 14:41:50] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[24/Dec/2018 14:41:50] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[24/Dec/2018 14:41:50] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[24/Dec/2018 14:41:50] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[24/Dec/2018 14:41:50] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+Not Found: /favicon.ico
+[24/Dec/2018 14:41:50] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:41:55] "GET /admin/lab/project/33/change/ HTTP/1.1" 200 9268
+[24/Dec/2018 14:41:55] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:41:55] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[24/Dec/2018 14:41:55] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[24/Dec/2018 14:41:55] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[24/Dec/2018 14:41:55] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[24/Dec/2018 14:41:55] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[24/Dec/2018 14:41:55] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+Not Found: /favicon.ico
+[24/Dec/2018 14:41:56] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:41:56] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[24/Dec/2018 14:41:56] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+[24/Dec/2018 14:42:00] "GET /admin/lab/sample/? HTTP/1.1" 200 49486
+[24/Dec/2018 14:42:00] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:42:07] "POST /admin/lab/sample/? HTTP/1.1" 200 30819
+[24/Dec/2018 14:42:14] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 14:42:16] "GET /admin/lab/sample/add/ HTTP/1.1" 200 11323
+[24/Dec/2018 14:42:16] "POST /admin/lab/project/33/change/ HTTP/1.1" 302 0
+[24/Dec/2018 14:42:16] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:42:16] "GET /admin/lab/project/ HTTP/1.1" 200 11733
+[24/Dec/2018 14:42:16] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:42:16] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:42:16] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[24/Dec/2018 14:43:26] "GET /admin/lab/sample/ HTTP/1.1" 200 49486
+[24/Dec/2018 14:43:26] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:43:34] "GET /admin/lab/sample/?project__id__exact=9 HTTP/1.1" 200 13406
+[24/Dec/2018 14:43:34] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:43:38] "GET /admin/lab/project/32/change/ HTTP/1.1" 200 9200
+[24/Dec/2018 14:43:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:43:38] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:43:44] "POST /admin/lab/project/32/change/ HTTP/1.1" 302 0
+[24/Dec/2018 14:43:44] "GET /admin/lab/project/ HTTP/1.1" 200 11721
+[24/Dec/2018 14:43:44] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:43:44] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:43:47] "GET /admin/lab/ HTTP/1.1" 200 2580
+Not Found: /favicon.ico
+[24/Dec/2018 14:43:47] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:43:48] "GET /admin/lab/sample/ HTTP/1.1" 200 49484
+[24/Dec/2018 14:43:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:43:49] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:44:38] "GET /admin/ HTTP/1.1" 302 0
+[24/Dec/2018 14:44:38] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[24/Dec/2018 14:44:38] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[24/Dec/2018 14:44:38] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Dec/2018 14:44:38] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[24/Dec/2018 14:44:38] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[24/Dec/2018 14:44:38] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+Not Found: /favicon.ico
+[24/Dec/2018 14:44:38] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:45:05] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[24/Dec/2018 14:45:05] "GET /admin/ HTTP/1.1" 200 2743
+[24/Dec/2018 14:45:05] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[24/Dec/2018 14:45:05] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[24/Dec/2018 14:45:05] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[24/Dec/2018 14:45:05] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+Not Found: /favicon.ico
+[24/Dec/2018 14:45:05] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:45:08] "GET /admin/lab/project/ HTTP/1.1" 200 7699
+[24/Dec/2018 14:45:08] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:45:08] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[24/Dec/2018 14:45:08] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[24/Dec/2018 14:45:08] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[24/Dec/2018 14:45:08] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[24/Dec/2018 14:45:08] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[24/Dec/2018 14:45:08] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[24/Dec/2018 14:45:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[24/Dec/2018 14:45:08] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[24/Dec/2018 14:45:08] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[24/Dec/2018 14:45:08] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[24/Dec/2018 14:45:08] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[24/Dec/2018 14:45:25] "GET /admin/lab/ HTTP/1.1" 200 2583
+[24/Dec/2018 14:45:27] "GET /admin/lab/sample/ HTTP/1.1" 200 49706
+[24/Dec/2018 14:45:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:45:40] "GET /admin/lab/sample/?project__id__exact=12 HTTP/1.1" 200 9272
+[24/Dec/2018 14:45:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:45:47] "GET /admin/lab/sample/?project__id__exact=25 HTTP/1.1" 200 9272
+[24/Dec/2018 14:45:47] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:45:51] "GET /admin/lab/sample/?project__id__exact=6 HTTP/1.1" 200 12566
+[24/Dec/2018 14:45:51] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:45:56] "GET /admin/lab/sample/? HTTP/1.1" 200 49706
+[24/Dec/2018 14:45:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:46:16] "GET /admin/lab/ HTTP/1.1" 200 2583
+[24/Dec/2018 14:46:18] "GET /admin/lab/project/ HTTP/1.1" 200 7699
+[24/Dec/2018 14:46:18] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:46:37] "GET /admin/lab/project/34/change/ HTTP/1.1" 200 9260
+[24/Dec/2018 14:46:37] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[24/Dec/2018 14:46:37] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[24/Dec/2018 14:46:37] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[24/Dec/2018 14:46:37] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[24/Dec/2018 14:46:37] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[24/Dec/2018 14:46:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:46:37] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[24/Dec/2018 14:46:37] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+[24/Dec/2018 14:46:37] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[24/Dec/2018 14:46:37] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9654
+[24/Dec/2018 14:46:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:46:38] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:46:42] "GET /admin/lab/ HTTP/1.1" 200 2583
+[24/Dec/2018 14:46:44] "GET /admin/lab/sample/ HTTP/1.1" 200 49706
+[24/Dec/2018 14:46:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:47:15] "GET /admin/lab/sample/?project__id__exact=34 HTTP/1.1" 200 9272
+[24/Dec/2018 14:47:15] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:48:16] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 14:48:16] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9868
+[24/Dec/2018 14:48:16] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:48:49] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 14:48:49] "GET /admin/lab/sample/ HTTP/1.1" 200 49644
+[24/Dec/2018 14:48:49] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:48:50] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:48:51] "GET /admin/lab/sample/269/change/ HTTP/1.1" 200 9928
+[24/Dec/2018 14:48:51] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:48:51] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:48:57] "POST /admin/lab/sample/269/change/ HTTP/1.1" 302 0
+[24/Dec/2018 14:48:57] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9874
+[24/Dec/2018 14:48:57] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:48:58] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:49:23] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 14:49:23] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9869
+[24/Dec/2018 14:49:23] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:49:43] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 14:49:44] "GET /admin/lab/sample/ HTTP/1.1" 200 49646
+[24/Dec/2018 14:49:44] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:49:44] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:49:46] "GET /admin/lab/sample/272/change/ HTTP/1.1" 200 9933
+[24/Dec/2018 14:49:46] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:49:46] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:49:52] "POST /admin/lab/sample/272/change/ HTTP/1.1" 302 0
+[24/Dec/2018 14:49:52] "GET /admin/lab/sample/ HTTP/1.1" 200 49646
+[24/Dec/2018 14:49:52] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:49:53] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:49:54] "GET /admin/lab/sample/271/change/ HTTP/1.1" 200 9933
+[24/Dec/2018 14:49:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:49:54] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:50:00] "POST /admin/lab/sample/271/change/ HTTP/1.1" 302 0
+[24/Dec/2018 14:50:01] "GET /admin/lab/sample/ HTTP/1.1" 200 49646
+[24/Dec/2018 14:50:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:50:01] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:50:04] "GET /admin/lab/sample/270/change/ HTTP/1.1" 200 9928
+[24/Dec/2018 14:50:04] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:50:04] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:50:07] "POST /admin/lab/sample/270/change/ HTTP/1.1" 302 0
+[24/Dec/2018 14:50:08] "GET /admin/lab/sample/ HTTP/1.1" 200 49645
+Not Found: /favicon.ico
+[24/Dec/2018 14:50:08] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:50:08] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:50:11] "GET /admin/lab/sample/269/change/ HTTP/1.1" 200 9928
+[24/Dec/2018 14:50:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:50:11] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:50:15] "POST /admin/lab/sample/269/change/ HTTP/1.1" 302 0
+[24/Dec/2018 14:50:16] "GET /admin/lab/sample/ HTTP/1.1" 200 49645
+[24/Dec/2018 14:50:16] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:50:16] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:51:25] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9654
+[24/Dec/2018 14:51:25] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:51:25] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:52:28] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 14:52:28] "GET /admin/lab/sample/ HTTP/1.1" 200 49642
+[24/Dec/2018 14:52:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:52:29] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:52:31] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9654
+[24/Dec/2018 14:52:31] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:52:31] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:52:55] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 14:52:55] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9866
+[24/Dec/2018 14:52:55] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:53:18] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 14:53:18] "GET /admin/lab/sample/add/ HTTP/1.1" 200 9866
+[24/Dec/2018 14:53:18] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:53:39] "POST /admin/lab/sample/add/ HTTP/1.1" 302 0
+[24/Dec/2018 14:53:40] "GET /admin/lab/sample/ HTTP/1.1" 200 49636
+[24/Dec/2018 14:53:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:53:40] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:53:43] "GET /admin/lab/sample/276/change/ HTTP/1.1" 200 9922
+[24/Dec/2018 14:53:43] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:53:43] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:54:40] "POST /admin/lab/sample/276/change/ HTTP/1.1" 302 0
+[24/Dec/2018 14:54:40] "GET /admin/lab/sample/ HTTP/1.1" 200 49636
+[24/Dec/2018 14:54:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:54:41] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:54:44] "GET /admin/lab/sample/275/change/ HTTP/1.1" 200 9922
+[24/Dec/2018 14:54:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:54:45] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:54:50] "POST /admin/lab/sample/275/change/ HTTP/1.1" 302 0
+[24/Dec/2018 14:54:51] "GET /admin/lab/sample/ HTTP/1.1" 200 49636
+[24/Dec/2018 14:54:51] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:54:51] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:54:52] "GET /admin/lab/sample/274/change/ HTTP/1.1" 200 9922
+[24/Dec/2018 14:54:52] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:54:52] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:54:56] "POST /admin/lab/sample/274/change/ HTTP/1.1" 302 0
+[24/Dec/2018 14:54:56] "GET /admin/lab/sample/ HTTP/1.1" 200 49636
+[24/Dec/2018 14:54:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:54:57] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:54:58] "GET /admin/lab/sample/273/change/ HTTP/1.1" 200 9922
+[24/Dec/2018 14:54:58] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:54:58] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:55:00] "POST /admin/lab/sample/273/change/ HTTP/1.1" 302 0
+[24/Dec/2018 14:55:00] "GET /admin/lab/sample/ HTTP/1.1" 200 49636
+[24/Dec/2018 14:55:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /favicon.ico
+[24/Dec/2018 14:55:01] "GET /favicon.ico HTTP/1.1" 404 2199
+[24/Dec/2018 14:56:24] "GET /admin/lab/project/ HTTP/1.1" 200 12030
+[24/Dec/2018 14:56:24] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:56:29] "GET /admin/lab/project/34/change/ HTTP/1.1" 200 9257
+[24/Dec/2018 14:56:30] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[24/Dec/2018 14:56:30] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[24/Dec/2018 14:56:30] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:56:30] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[24/Dec/2018 14:56:30] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[24/Dec/2018 14:56:30] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[24/Dec/2018 14:56:30] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[24/Dec/2018 14:56:30] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[24/Dec/2018 14:56:30] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+[24/Dec/2018 14:56:48] "GET /admin/lab/project/ HTTP/1.1" 200 12030
+[24/Dec/2018 14:56:48] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:56:56] "GET /admin/lab/project/30/change/ HTTP/1.1" 200 9188
+[24/Dec/2018 14:56:56] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:57:04] "GET /admin/lab/project/ HTTP/1.1" 200 12030
+[24/Dec/2018 14:57:04] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:57:07] "GET /admin/lab/project/28/change/ HTTP/1.1" 200 9173
+[24/Dec/2018 14:57:07] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:57:27] "GET / HTTP/1.1" 200 52
+[24/Dec/2018 14:57:31] "GET /admin/lab/project/28/change/ HTTP/1.1" 200 9173
+[24/Dec/2018 14:57:31] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:57:32] "GET /admin/lab/project/ HTTP/1.1" 200 12030
+[24/Dec/2018 14:57:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:57:39] "GET /admin/ HTTP/1.1" 200 2740
+[24/Dec/2018 14:57:41] "GET /admin/lab/project/ HTTP/1.1" 200 12030
+[24/Dec/2018 14:57:41] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 14:57:49] "GET /admin/lab/project/21/change/ HTTP/1.1" 200 9148
+[24/Dec/2018 14:57:49] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 15:01:03] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 15:01:04] "GET /admin/lab/project/ HTTP/1.1" 200 24385
+[24/Dec/2018 15:01:04] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Internal Server Error: /admin/lab/project/
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1542, in changelist_view
+    self.list_max_show_all, self.list_editable, self,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 78, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 351, in get_queryset
+    qs, search_use_distinct = self.model_admin.get_search_results(request, qs, self.query)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 910, in get_search_results
+    queryset = queryset.filter(reduce(operator.or_, or_queries))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1270, in _add_q
+    current_negated, allow_joins, split_subq)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'lab_staff' into field. Choices are: bioinfo_people, created_by, created_by_id, description, id, lab_people, name, p_id, project_date, project_type, report, s_project
+[24/Dec/2018 15:01:09] "GET /admin/lab/project/?q=%E8%82%BA%E7%99%8C HTTP/1.1" 500 172722
+[24/Dec/2018 15:01:22] "GET /admin/lab/project/ HTTP/1.1" 200 24385
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 24, 2018 - 08:11:47
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f13988ff8c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 405, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+<class 'lab.admin.ProjectAdmin'>: (admin.E109) The value of 'list_display[4]' must not be a ManyToManyField.
+<class 'lab.admin.ProjectAdmin'>: (admin.E109) The value of 'list_display[6]' must not be a ManyToManyField.
+
+System check identified 2 issues (0 silenced).
+[24/Dec/2018 15:03:04] "GET /admin/lab/project/ HTTP/1.1" 200 20920
+[24/Dec/2018 15:03:04] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Internal Server Error: /admin/lab/project/
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1542, in changelist_view
+    self.list_max_show_all, self.list_editable, self,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 78, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 351, in get_queryset
+    qs, search_use_distinct = self.model_admin.get_search_results(request, qs, self.query)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 910, in get_search_results
+    queryset = queryset.filter(reduce(operator.or_, or_queries))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1270, in _add_q
+    current_negated, allow_joins, split_subq)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'lab_staff' into field. Choices are: bioinfo_people, created_by, created_by_id, description, id, lab_people, name, p_id, project_date, project_type, report, s_project
+[24/Dec/2018 15:03:10] "GET /admin/lab/project/?q=%E8%82%BA%E7%99%8C HTTP/1.1" 500 172622
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 24, 2018 - 15:03:03
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Internal Server Error: /admin/lab/project/
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1542, in changelist_view
+    self.list_max_show_all, self.list_editable, self,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 78, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 351, in get_queryset
+    qs, search_use_distinct = self.model_admin.get_search_results(request, qs, self.query)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/admin/options.py", line 910, in get_search_results
+    queryset = queryset.filter(reduce(operator.or_, or_queries))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1270, in _add_q
+    current_negated, allow_joins, split_subq)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1201, in build_filter
+    raise FieldError('Related Field got invalid lookup: {}'.format(lookups[0]))
+FieldError: Related Field got invalid lookup: icontains
+[24/Dec/2018 15:03:35] "GET /admin/lab/project/?q=%E8%82%BA%E7%99%8C HTTP/1.1" 500 163867
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 24, 2018 - 15:03:35
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 24, 2018 - 15:03:48
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+[24/Dec/2018 15:04:01] "GET /admin/lab/project/?q=%E8%82%BA%E7%99%8C HTTP/1.1" 200 6950
+[24/Dec/2018 15:04:01] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 15:04:03] "GET /admin/lab/project/?q=%E8%82%BA%E7%99%8C HTTP/1.1" 200 6950
+[24/Dec/2018 15:04:03] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 15:04:06] "GET /admin/lab/project/?q=%E8%82%BA HTTP/1.1" 200 7451
+[24/Dec/2018 15:04:06] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 15:04:09] "GET /admin/lab/project/?q=%E8%82%BA HTTP/1.1" 200 7451
+[24/Dec/2018 15:04:09] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 15:04:12] "GET /admin/lab/ HTTP/1.1" 200 2576
+[24/Dec/2018 15:17:57] "GET /admin/ HTTP/1.1" 200 6364
+[24/Dec/2018 15:17:58] "GET /admin/ HTTP/1.1" 200 6364
+[24/Dec/2018 15:55:21] "GET /admin/lab/project/ HTTP/1.1" 200 12030
+[24/Dec/2018 15:55:22] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 15:56:23] "GET /admin/lab/project/15/change/ HTTP/1.1" 200 9196
+[24/Dec/2018 15:56:23] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 15:56:28] "GET /admin/lab/project/ HTTP/1.1" 200 12030
+[24/Dec/2018 15:56:28] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 15:56:35] "GET /admin/lab/project/27/change/ HTTP/1.1" 200 9173
+[24/Dec/2018 15:56:35] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 15:56:38] "GET /admin/lab/project/ HTTP/1.1" 200 12030
+[24/Dec/2018 15:56:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 15:56:45] "GET /admin/lab/project/27/change/ HTTP/1.1" 200 9173
+[24/Dec/2018 15:56:45] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[24/Dec/2018 15:56:51] "GET /admin/lab/project/ HTTP/1.1" 200 12030
+[24/Dec/2018 15:56:51] "GET /admin/jsi18n/ HTTP/1.1" 200 7758

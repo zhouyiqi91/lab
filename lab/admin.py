@@ -38,7 +38,7 @@ class ProjectAdmin(admin.ModelAdmin):
 
     #exclude = ('project_id',)   
     list_display = ('name','p_id','project_type','samples','lab_staff','project_date','bioinfo_staff','view_link')
-    search_fields = ['name','lab_staff','project_type','project_date','bioinfo_staff','description']
+    search_fields = ['name','project_type','project_date','description']
     actions = ["export_as_csv"]
     # 只能看到自己项目
     
