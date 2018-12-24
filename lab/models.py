@@ -9,43 +9,6 @@ from django.db.models import Q
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-"""
-class Employee(models.Model):
-    type_choice =(
-    ("lab","实验"),
-    ("bioinfo","生信"),
-    ("xingzheng","行政"),
-    ("manage","管理"),
-    )
-
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
-    department = models.CharField(verbose_name="部门",max_length=30,choices=type_choice)
-
-    def get_user_name(self):
-        return self.last_name + self.first_name
-
-    User.__unicode__ = get_user_name
-
-    def __str__(self):
-        return(self.user.__unicode__())
-
-
-class Lab_staff(models.Model):
-    employee = models.OneToOneField(Employee, on_delete=models.CASCADE,limit_choices_to={'department': "lab"},)
-
-    def __str__(self):
-        #return(self.employee.__str__())
-        return("yes")
-
-class Bioinfo_staff(models.Model):
-    employee = models.OneToOneField(Employee, on_delete=models.CASCADE)
-    #,limit_choices_to={'department': "bioinfo"},)
-
-    def __str__(self):
-        return ("yes")
-        #return(self.employee.__str__())
-"""
-
 
 class Project(models.Model):
 

@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ["*"]
 
 INSTALLED_APPS = [
     'lab.apps.LabConfig',
+    'paper.apps.PaperConfig',
 	'django_admin_listfilter_dropdown',
     'django.contrib.admin',
     'django.contrib.auth',
