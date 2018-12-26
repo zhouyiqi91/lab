@@ -83,6 +83,7 @@ class Sample(models.Model):
     library_id = models.CharField(max_length=80,blank=True)
     library_type = models.CharField(max_length=20,blank=True,choices=library_type_choice)
     AATI = models.ImageField(upload_to="SGRNJ/Database/test/1.11/lab_project/media/AATI",blank=True)
+    xiaji = models.BooleanField(default=False,blank=True)
     report = models.CharField(max_length=255,blank=True)
 
     def library(self):

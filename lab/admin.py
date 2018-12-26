@@ -76,9 +76,10 @@ class SampleAdmin(admin.ModelAdmin):
         return response
     export_as_csv.short_description = "输出选中项为csv"
 
-    list_display = ('name','p_id','sample_date','library','view_link')
+    list_display = ('name','p_id','sample_date','library','xiaji','view_link')
     list_filter = ( ('project',RelatedDropdownFilter),
                     ('sample_date'),
+                    ('xiaji'),
         )
     search_fields = ['name','sample_date','library_id','description']
     actions = ["export_as_csv"]
