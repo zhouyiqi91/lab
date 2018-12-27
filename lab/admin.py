@@ -76,7 +76,7 @@ class SampleAdmin(admin.ModelAdmin):
         return response
     export_as_csv.short_description = "输出选中项为csv"
 
-    list_display = ('name','p_id','sample_date','library','view_link')
+    list_display = ('name','p_id','sample_date','species','library_type','library','view_link','created_by')
     list_filter = ( ('project',RelatedDropdownFilter),
                     ('sample_date'),
         )
@@ -98,6 +98,28 @@ class SampleAdmin(admin.ModelAdmin):
         if not(request.user.is_superuser or is_manage(request.user)):
             form.base_fields['project'].queryset = Project.objects.filter(lab_people=request.user)
         return form
+
+    def save_model(self, request, obj, form, change):
+        if self.pk is None:
+            created_by = request.user
+            name_attr = obj.name.split("\n")
+            library_attr = obj.library_id.split("\n")
+            library_len = len(library_attr)
+            des_attr = obj.description.split("\n")
+            des_len = len(des_attr)
+            index = 0
+            for name_item in name_attr:
+                name_item = name_item.strip()
+                if name_item:
+                    library,des = "",""
+                    if library_len > index:
+                        library = library_attr[index].strip()
+                    if des_len > index:
+                        des = des_attr[index].strip()
+                    Sample.objects.create(name = name_item,project = obj.project,created_by = created_by,species=obj.species,sample_date = obj.sample_date,description = des,AATI = obj.AATI,report=obj.report,library_id=library,library_type=obj.library_type)
+                index += 1
+        else:
+            obj.save()
     
 
 admin.site.register(Sample,SampleAdmin)
