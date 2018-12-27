@@ -76,7 +76,7 @@ class SampleAdmin(admin.ModelAdmin):
         return response
     export_as_csv.short_description = "输出选中项为csv"
 
-    list_display = ('name','p_id','sample_date','species','library_type','library','view_link','created_by')
+    list_display = ('name','p_id','sample_date','species','library_type','library_id','view_link','created_by')
     list_filter = ( ('project',RelatedDropdownFilter),
                     ('sample_date'),
         )
@@ -100,7 +100,7 @@ class SampleAdmin(admin.ModelAdmin):
         return form
 
     def save_model(self, request, obj, form, change):
-        if self.pk is None:
+        if obj.pk is None:
             created_by = request.user
             name_attr = obj.name.split("\n")
             library_attr = obj.library_id.split("\n")

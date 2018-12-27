@@ -80,18 +80,12 @@ class Sample(models.Model):
     project = models.ForeignKey(Project,related_name="s_project")
     species = models.CharField(max_length=20,choices=species_choice)
     sample_date = models.DateField()
-    description = models.TextField(max_length=300,blank=True)
+    description = models.TextField(blank=True)
     library_id = models.TextField(blank=True)
     library_type = models.CharField(max_length=20,blank=True,choices=library_type_choice)
     AATI = models.ImageField(upload_to="SGRNJ/Database/test/1.11/lab_project/media/AATI",blank=True)
     report = models.CharField(max_length=255,blank=True)
     created_by = models.ForeignKey(User,editable=False,null=True,blank=True)
-
-    def library(self):
-        if not self.library_id:
-            return ""
-	else:
-            return self.library_id
 
 
     def lab_staff(self):
