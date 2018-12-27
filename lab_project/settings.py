@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ["*"]
 
 INSTALLED_APPS = [
     'lab.apps.LabConfig',
+    #'bulk_admin',
     'paper.apps.PaperConfig',
 	'django_admin_listfilter_dropdown',
     'django.contrib.admin',
@@ -60,6 +61,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        #'/SGRNJ/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/bulk_admin/templates/bulk_admin'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

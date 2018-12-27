@@ -75,6 +75,10 @@ class Sample(models.Model):
     ("other","other"),
         )
 
+    BOOL_CHOICES=((True, "是"),
+              (False, "否"),
+              )
+
     name = models.CharField(max_length=80)
     project = models.ForeignKey(Project,related_name="s_project")
     species = models.CharField(max_length=20,choices=species_choice)

@@ -9,6 +9,9 @@ from django.db.models import Q
 from django.http import HttpResponse
 import csv
 from django_admin_listfilter_dropdown.filters import DropdownFilter, ChoiceDropdownFilter, RelatedDropdownFilter
+from django.conf.urls import url
+from django.template.response import TemplateResponse
+#import bulk_admin
 
 def is_manage(user):
     return user.groups.filter(name='manage').exists()
@@ -59,6 +62,26 @@ class ProjectAdmin(admin.ModelAdmin):
 admin.site.register(Project,ProjectAdmin)
 
 class SampleAdmin(admin.ModelAdmin):
+    #bulk_upload_fields = ()
+    def get_urls(self):
+        urls = super(SampleAdmin, self).get_urls()
+        my_urls = [
+            url(r'^my_view/$', self.my_view),
+        ]
+        return my_urls + urls
+
+    def my_view(self, request):
+        # ...
+        context = dict(
+           # Include common variables for rendering the admin template.
+           self.admin_site.each_context(request),
+           # Anything else you want in the context...
+        )
+        if request.method == 'POST':
+          for line in request.POST['bulk-create'].split('\n'):
+            Sample.objects.create(name=line)
+        return TemplateResponse(request, "bulk_create.html", context)
+        
 
     def export_as_csv(self, request, queryset):
 
