@@ -86,6 +86,8 @@ class Sample(models.Model):
     AATI = models.ImageField(upload_to="SGRNJ/Database/test/1.11/lab_project/media/AATI",blank=True)
     report = models.CharField(max_length=255,blank=True)
     created_by = models.ForeignKey(User,editable=False,null=True,blank=True)
+    xiaji = models.BooleanField(verbose_name="下机",default=False)
+    fenxi = models.BooleanField(verbose_name="分析",default=False)
 
 
     def lab_staff(self):

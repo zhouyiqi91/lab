@@ -60,6 +60,25 @@ admin.site.register(Project,ProjectAdmin)
 
 class SampleAdmin(admin.ModelAdmin):
 
+    def yi_xiaji(self, request, queryset):
+        queryset.update(xiaji=True)
+    yi_xiaji.short_description = "标记为已下机"
+
+    def wei_xiaji(self, request, queryset):
+        queryset.update(xiaji=False)
+    wei_xiaji.short_description = "标记为未下机"
+
+    def yi_fenxi(self, request, queryset):
+        queryset.update(fenxi=True)
+    yi_fenxi.short_description = "标记为已分析"
+
+    def wei_fenxi(self, request, queryset):
+        queryset.update(fenxi=False)
+    wei_fenxi.short_description = "标记为未分析"
+
+
+
+
     def export_as_csv(self, request, queryset):
 
         meta = self.model._meta
@@ -76,13 +95,16 @@ class SampleAdmin(admin.ModelAdmin):
         return response
     export_as_csv.short_description = "输出选中项为csv"
 
-    list_display = ('name','p_id','sample_date','species','library_type','library_id','view_link','created_by')
+    list_display = ('name','p_id','sample_date','species','library_type','library_id','xiaji','fenxi','view_link')
     list_filter = ( ('project',RelatedDropdownFilter),
                     ('library_type',ChoiceDropdownFilter),
                     ('sample_date'),
+                    ('xiaji'),
+                    ('fenxi'),
         )
-    search_fields = ['name','sample_date','library_id','description','species','project__p_id','library_type','created_by__last_name']
-    actions = ["export_as_csv"]
+    search_fields = ['name','sample_date','library_id','description','species','project__p_id','library_type']
+    #'created_by__last_name']
+    actions = ["export_as_csv","yi_xiaji","wei_xiaji","yi_fenxi","wei_fenxi"]
 
     # 只能看到自己项目的样本
     def get_queryset(self, request):
@@ -117,7 +139,7 @@ class SampleAdmin(admin.ModelAdmin):
                         library = library_attr[index].strip()
                     if des_len > index:
                         des = des_attr[index].strip()
-                    Sample.objects.create(name = name_item,project = obj.project,created_by = created_by,species=obj.species,sample_date = obj.sample_date,description = des,AATI = obj.AATI,report=obj.report,library_id=library,library_type=obj.library_type)
+                    Sample.objects.create(name = name_item,project = obj.project,created_by = created_by,species=obj.species,sample_date = obj.sample_date,description = des,AATI = obj.AATI,report=obj.report,library_id=library,library_type=obj.library_type,need_analysis = obj.need_analysis)
                 index += 1
         else:
             obj.save()
