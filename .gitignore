@@ -3,3 +3,4 @@
 *.csv
 nohup.out
 media/
+*.sh

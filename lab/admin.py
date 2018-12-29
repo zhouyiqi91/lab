@@ -78,9 +78,10 @@ class SampleAdmin(admin.ModelAdmin):
 
     list_display = ('name','p_id','sample_date','species','library_type','library_id','view_link','created_by')
     list_filter = ( ('project',RelatedDropdownFilter),
+                    ('library_type',ChoiceDropdownFilter),
                     ('sample_date'),
         )
-    search_fields = ['name','sample_date','library_id','description']
+    search_fields = ['name','sample_date','library_id','description','species','project__p_id','library_type','created_by__last_name']
     actions = ["export_as_csv"]
 
     # 只能看到自己项目的样本

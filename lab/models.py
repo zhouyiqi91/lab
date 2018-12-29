@@ -57,7 +57,7 @@ class Project(models.Model):
 
 
     def __str__(self):
-        return self.name
+        return (self.name+" ( "+self.p_id+" )")
 
 
 class Sample(models.Model):
