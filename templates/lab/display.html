@@ -1,0 +1,35 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+      <title>项目信息</title>
+<link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}" >
+</head>
+
+<body>
+<table class="table table-striped">
+<tr>
+    <th>项目名称</th>
+    <th>编号</th>
+    <th>类型</th>
+    <th>样本数</th>
+    <th>实验人员</th>
+    <th>生信人员</th>
+    <th>报告</th>
+</tr>
+{% for project in projects %}
+<tr>
+    <td><a href={{ project.id }}>{{ project.name }}</a></td>
+    <td>{{ project.p_id }}</td>
+    <td>{{ project.project_type }}</td>
+    <td>{{ project.samples }}</td>
+    <td>{{ project.lab_staff }}</td>
+    <td>{{ project.bioinfo_staff }}</td>
+    <td>{{ project.view_link|safe }}</td>
+</tr>
+{% endfor %}
+</table>
+
+</body>
+</html>

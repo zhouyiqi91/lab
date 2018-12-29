@@ -1,0 +1,44 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+      <title>{{ project.name }}</title>
+<link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}" >
+</head>
+
+<body>
+    项目名称：{{ project.name }} </br>
+    项目编号：{{ project.p_id }} </br>
+    实验人员：{{ project.lab_staff }} </br>
+    生信人员：{{ project.bioinfo_staff }}</br>
+    样本数目：{{ project.samples }}</br>
+    </br>
+    样本信息：</br>
+    <table class="table table-striped table-condensed">
+        <tr>
+            <th>样本名称</th>
+            <th>日期</th>
+            <th>物种</th>
+            <th>文库类型</th>
+            <th>文库编号</th>
+            <th>描述</th>
+            <th>AATI</th>
+            <th>报告</th>
+        </tr>
+        {% for sample in samples %}
+        <tr>
+            <td>{{ sample.name }}</td>
+            <td>{{ sample.sample_date }}</td>
+            <td>{{ sample.species }}</td>
+            <td>{{ sample.library_type }}</td>
+            <td>{{ sample.library_id }}</td>
+            <td>{{ sample.description }}</td>
+            <td>{{ sample.AATI }}</td>
+            <td>{{ sample.view_link }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>

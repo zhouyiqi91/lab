@@ -594,3 +594,772 @@ NameError: name 'created_by__last_name' is not defined
 [29/Dec/2018 10:18:59] "GET /admin/lab/ HTTP/1.1" 200 2576
 [29/Dec/2018 10:19:00] "GET /admin/lab/sample/ HTTP/1.1" 200 64036
 [29/Dec/2018 10:19:00] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Unhandled exception in thread started by <function wrapper at 0x7fedde727140>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/SGRNJ/Database/develop/lab/lab_project/urls.py", line 19, in <module>
+    from lab.views import *
+  File "/SGRNJ/Database/develop/lab/lab/views.py", line 19
+    
+                             ^
+IndentationError: expected an indented block
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 11:29:56
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 11:30:10] "GET /admin/ HTTP/1.1" 302 0
+[29/Dec/2018 11:30:11] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[29/Dec/2018 11:30:14] "GET / HTTP/1.1" 200 4015
+[29/Dec/2018 11:37:54] "GET / HTTP/1.1" 200 4015
+[29/Dec/2018 11:37:55] "GET / HTTP/1.1" 200 4015
+[29/Dec/2018 11:37:56] "GET / HTTP/1.1" 200 4015
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 11:30:09
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+Not Found: /
+[29/Dec/2018 11:38:04] "GET / HTTP/1.1" 404 2044
+Not Found: /lab
+[29/Dec/2018 11:38:10] "GET /lab HTTP/1.1" 404 2071
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 11:38:04
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fd97de27140>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/SGRNJ/Database/develop/lab/lab_project/urls.py", line 24, in <module>
+    url(r'^lab/', include('lab.urls')),
+NameError: name 'include' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f9a811d8140>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/SGRNJ/Database/develop/lab/lab_project/urls.py", line 24, in <module>
+    url(r'^lab/', include('lab.urls')),
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/SGRNJ/Database/develop/lab/lab/urls.py", line 5, in <module>
+    import settings
+ImportError: No module named settings
+[29/Dec/2018 11:40:26] "GET /lab HTTP/1.1" 301 0
+[29/Dec/2018 11:40:27] "GET /lab/ HTTP/1.1" 200 4015
+[29/Dec/2018 11:40:36] "GET /admin/ HTTP/1.1" 302 0
+[29/Dec/2018 11:40:36] "GET /admin/ HTTP/1.1" 302 0
+[29/Dec/2018 11:40:36] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[29/Dec/2018 11:40:36] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[29/Dec/2018 11:40:38] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Dec/2018 11:40:38] "GET /admin/ HTTP/1.1" 200 6948
+Not Found: /
+[29/Dec/2018 11:40:39] "GET / HTTP/1.1" 404 2149
+[29/Dec/2018 11:40:42] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 11:41:32] "GET /admin/lab/sample/add/ HTTP/1.1" 200 11873
+[29/Dec/2018 11:41:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[29/Dec/2018 11:41:34] "GET /admin/ HTTP/1.1" 200 6948
+Not Found: /
+[29/Dec/2018 11:41:38] "GET / HTTP/1.1" 404 2149
+[29/Dec/2018 11:41:40] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 11:42:08] "GET /lab/ HTTP/1.1" 200 4015
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 11:40:26
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+Not Found: /lab/1
+[29/Dec/2018 11:47:58] "GET /lab/1 HTTP/1.1" 404 2231
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 11:47:55
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 11:48:07] "GET /lab/1 HTTP/1.1" 301 0
+[29/Dec/2018 11:48:07] "GET /lab/1/ HTTP/1.1" 200 1
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 11:48:06
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 11:48:55] "GET /lab/1/ HTTP/1.1" 200 0
+[29/Dec/2018 11:48:57] "GET /lab/1/ HTTP/1.1" 200 0
+[29/Dec/2018 11:48:58] "GET /lab/1/ HTTP/1.1" 200 0
+[29/Dec/2018 11:49:00] "GET /lab/2 HTTP/1.1" 301 0
+[29/Dec/2018 11:49:00] "GET /lab/2/ HTTP/1.1" 200 32
+[29/Dec/2018 11:49:03] "GET /lab/3 HTTP/1.1" 301 0
+[29/Dec/2018 11:49:03] "GET /lab/3/ HTTP/1.1" 200 109
+[29/Dec/2018 11:49:11] "GET /lab/4 HTTP/1.1" 301 0
+[29/Dec/2018 11:49:11] "GET /lab/4/ HTTP/1.1" 200 107
+[29/Dec/2018 11:49:16] "GET /lab/5 HTTP/1.1" 301 0
+[29/Dec/2018 11:49:16] "GET /lab/5/ HTTP/1.1" 200 324
+[29/Dec/2018 11:49:19] "GET /lab/6 HTTP/1.1" 301 0
+[29/Dec/2018 11:49:19] "GET /lab/6/ HTTP/1.1" 200 146
+[29/Dec/2018 11:49:22] "GET /lab/7 HTTP/1.1" 301 0
+[29/Dec/2018 11:49:22] "GET /lab/7/ HTTP/1.1" 200 114
+[29/Dec/2018 11:49:26] "GET /lab/8 HTTP/1.1" 301 0
+[29/Dec/2018 11:49:26] "GET /lab/8/ HTTP/1.1" 200 264
+[29/Dec/2018 11:49:29] "GET /lab/22 HTTP/1.1" 301 0
+[29/Dec/2018 11:49:29] "GET /lab/22/ HTTP/1.1" 200 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 11:48:54
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 12:59:35] "GET /lab/22/ HTTP/1.1" 200 9
+[29/Dec/2018 12:59:38] "GET /lab/1/ HTTP/1.1" 200 9
+[29/Dec/2018 12:59:41] "GET /lab/2/ HTTP/1.1" 200 1121
+[29/Dec/2018 12:59:53] "GET /lab/2/ HTTP/1.1" 200 1121
+[29/Dec/2018 12:59:54] "GET /lab/2/ HTTP/1.1" 200 849
+[29/Dec/2018 13:01:27] "GET /lab/ HTTP/1.1" 200 4015
+[29/Dec/2018 13:01:29] "GET /lab/ HTTP/1.1" 200 4015
+[29/Dec/2018 13:01:32] "GET /lab/ HTTP/1.1" 200 4015
+[29/Dec/2018 13:01:33] "GET /lab/ HTTP/1.1" 200 4015
+[29/Dec/2018 13:01:33] "GET /lab/ HTTP/1.1" 200 4015
+[29/Dec/2018 13:01:33] "GET /lab/ HTTP/1.1" 200 4015
+[29/Dec/2018 13:01:33] "GET /lab/ HTTP/1.1" 200 4015
+[29/Dec/2018 13:02:15] "GET /lab/ HTTP/1.1" 200 4671
+[29/Dec/2018 13:02:17] "GET /lab/ HTTP/1.1" 200 4671
+Not Found: /lab/lab/1
+[29/Dec/2018 13:02:18] "GET /lab/lab/1 HTTP/1.1" 404 2448
+Not Found: /lab/lab/1
+[29/Dec/2018 13:02:25] "GET /lab/lab/1 HTTP/1.1" 404 2448
+Not Found: /lab/lab/1
+[29/Dec/2018 13:02:26] "GET /lab/lab/1 HTTP/1.1" 404 2448
+Not Found: /lab/lab/1
+[29/Dec/2018 13:02:28] "GET /lab/lab/1 HTTP/1.1" 404 2448
+[29/Dec/2018 13:02:34] "GET /lab/ HTTP/1.1" 200 4531
+[29/Dec/2018 13:02:35] "GET /lab/1/ HTTP/1.1" 200 9
+[29/Dec/2018 13:02:38] "GET /lab/2/ HTTP/1.1" 200 849
+[29/Dec/2018 13:02:49] "GET /lab/24 HTTP/1.1" 301 0
+[29/Dec/2018 13:02:49] "GET /lab/24/ HTTP/1.1" 200 553
+[29/Dec/2018 13:03:06] "GET /lab/34 HTTP/1.1" 301 0
+[29/Dec/2018 13:03:06] "GET /lab/34/ HTTP/1.1" 200 2596
+[29/Dec/2018 13:03:26] "GET /admin/ HTTP/1.1" 302 0
+[29/Dec/2018 13:03:27] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[29/Dec/2018 13:03:29] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Dec/2018 13:03:29] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 13:03:31] "GET /admin/lab/sample/ HTTP/1.1" 200 64036
+[29/Dec/2018 13:03:31] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[29/Dec/2018 13:03:34] "GET /admin/lab/sample/?project__id__exact=34 HTTP/1.1" 200 25549
+[29/Dec/2018 13:03:34] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[29/Dec/2018 13:03:38] "GET /admin/lab/ HTTP/1.1" 200 2576
+[29/Dec/2018 13:03:40] "GET /admin/lab/project/ HTTP/1.1" 200 25342
+[29/Dec/2018 13:03:40] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[29/Dec/2018 13:07:53] "GET /lab/33 HTTP/1.1" 301 0
+[29/Dec/2018 13:07:53] "GET /lab/33/ HTTP/1.1" 200 10071
+[29/Dec/2018 13:15:34] "GET /lab/ HTTP/1.1" 200 4531
+[29/Dec/2018 13:15:36] "GET /lab/16 HTTP/1.1" 301 0
+[29/Dec/2018 13:15:36] "GET /lab/16/ HTTP/1.1" 200 129
+[29/Dec/2018 13:15:40] "GET /lab/27 HTTP/1.1" 301 0
+[29/Dec/2018 13:15:40] "GET /lab/27/ HTTP/1.1" 200 3000
+[29/Dec/2018 13:15:55] "GET /lab/35 HTTP/1.1" 301 0
+[29/Dec/2018 13:15:55] "GET /lab/35/ HTTP/1.1" 200 9
+[29/Dec/2018 13:15:59] "GET /lab/34/ HTTP/1.1" 200 2596
+[29/Dec/2018 13:16:06] "GET /lab/15 HTTP/1.1" 301 0
+[29/Dec/2018 13:16:06] "GET /lab/15/ HTTP/1.1" 200 604
+[29/Dec/2018 13:16:20] "GET /lab/29 HTTP/1.1" 301 0
+[29/Dec/2018 13:16:20] "GET /lab/29/ HTTP/1.1" 200 699
+[29/Dec/2018 13:16:26] "GET /lab/29/ HTTP/1.1" 200 699
+[29/Dec/2018 13:16:40] "GET /lab/8/ HTTP/1.1" 200 1283
+[29/Dec/2018 13:16:47] "GET /lab/9 HTTP/1.1" 301 0
+[29/Dec/2018 13:16:47] "GET /lab/9/ HTTP/1.1" 200 819
+[29/Dec/2018 13:17:27] "GET /lab/10 HTTP/1.1" 301 0
+[29/Dec/2018 13:17:27] "GET /lab/10/ HTTP/1.1" 200 9
+[29/Dec/2018 13:17:30] "GET /lab/19 HTTP/1.1" 301 0
+[29/Dec/2018 13:17:30] "GET /lab/19/ HTTP/1.1" 200 9
+[29/Dec/2018 13:17:37] "GET /lab/20 HTTP/1.1" 301 0
+[29/Dec/2018 13:17:37] "GET /lab/20/ HTTP/1.1" 200 848
+[29/Dec/2018 13:17:43] "GET /lab/8/ HTTP/1.1" 200 1283
+[29/Dec/2018 13:17:46] "GET /lab/29/ HTTP/1.1" 200 699
+[29/Dec/2018 13:17:54] "GET /lab/14 HTTP/1.1" 301 0
+[29/Dec/2018 13:17:54] "GET /lab/14/ HTTP/1.1" 200 1159
+Not Found: /
+[29/Dec/2018 13:19:32] "GET / HTTP/1.1" 404 2149
+[29/Dec/2018 13:19:36] "GET /admin/lab/project/ HTTP/1.1" 200 25342
+[29/Dec/2018 13:19:46] "GET /admin/lab/project/33/change/ HTTP/1.1" 200 9786
+[29/Dec/2018 13:19:46] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[29/Dec/2018 13:19:50] "GET /admin/lab/project/ HTTP/1.1" 200 25342
+[29/Dec/2018 13:20:28] "GET /lab/32 HTTP/1.1" 301 0
+[29/Dec/2018 13:20:28] "GET /lab/32/ HTTP/1.1" 200 650
+[29/Dec/2018 13:24:31] "GET /lab/ HTTP/1.1" 200 4531
+[29/Dec/2018 13:24:32] "GET /lab/11 HTTP/1.1" 301 0
+[29/Dec/2018 13:24:32] "GET /lab/11/ HTTP/1.1" 200 32
+[29/Dec/2018 13:24:35] "GET /lab/34/ HTTP/1.1" 200 2435
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 11:50:34
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 13:25:01] "GET /lab/34/ HTTP/1.1" 200 2435
+[29/Dec/2018 13:25:13] "GET /lab/34/ HTTP/1.1" 200 2435
+[29/Dec/2018 13:25:17] "GET /lab/34/ HTTP/1.1" 200 2435
+[29/Dec/2018 13:25:32] "GET /lab/34/ HTTP/1.1" 200 2435
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 13:25:01
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 13:25:34] "GET /lab/14/ HTTP/1.1" 200 1169
+[29/Dec/2018 13:25:38] "GET /lab/34/ HTTP/1.1" 200 2480
+[29/Dec/2018 13:26:16] "GET /lab/ HTTP/1.1" 200 4531
+[29/Dec/2018 13:26:17] "GET /lab/5/ HTTP/1.1" 200 1274
+[29/Dec/2018 13:26:36] "GET /lab/5/ HTTP/1.1" 200 1754
+[29/Dec/2018 13:27:12] "GET /lab/5/ HTTP/1.1" 200 1754
+[29/Dec/2018 13:27:12] "GET /lab/5/ HTTP/1.1" 200 1307
+[29/Dec/2018 13:27:17] "GET /lab/34/ HTTP/1.1" 200 1994
+[29/Dec/2018 13:27:50] "GET /lab/ HTTP/1.1" 200 6486
+[29/Dec/2018 13:28:19] "GET /lab/8/ HTTP/1.1" 200 1112
+[29/Dec/2018 13:28:31] "GET /lab/8/ HTTP/1.1" 200 1112
+[29/Dec/2018 13:30:23] "GET /lab/34/ HTTP/1.1" 200 1994
+[29/Dec/2018 13:30:28] "GET /lab/33/ HTTP/1.1" 200 7377
+[29/Dec/2018 13:30:53] "GET /lab/4/ HTTP/1.1" 200 480
+[29/Dec/2018 13:32:26] "GET /admin/lab/ HTTP/1.1" 200 2576
+[29/Dec/2018 13:32:26] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 13:32:30] "GET /admin/paper/paper/ HTTP/1.1" 200 5928
+[29/Dec/2018 13:32:30] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[29/Dec/2018 13:32:34] "GET /admin/paper/paper/1/change/ HTTP/1.1" 200 7925
+[29/Dec/2018 13:32:34] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[29/Dec/2018 13:32:35] "GET /admin/paper/paper/ HTTP/1.1" 200 5928
+[29/Dec/2018 13:32:37] "GET /admin/paper/paper/1/change/ HTTP/1.1" 200 7925
+[29/Dec/2018 13:32:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[29/Dec/2018 13:32:45] "GET /admin/paper/paper/ HTTP/1.1" 200 5928
+[29/Dec/2018 13:32:46] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 13:34:44] "GET /lab/ HTTP/1.1" 200 6486
+[29/Dec/2018 13:35:59] "GET /lab/3/ HTTP/1.1" 200 754
+Internal Server Error: /lab/3/
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/SGRNJ/Database/develop/lab/lab/views.py", line 22, in sample_lists
+    return render(request,'lab/sample_lists.html',{'samples':samples,'project':project})
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'bootstrap3' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+static
+staticfiles
+tz
+[29/Dec/2018 13:50:08] "GET /lab/3/ HTTP/1.1" 500 117237
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 13:25:33
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 13:51:04] "GET /lab/ HTTP/1.1" 200 6486
+[29/Dec/2018 13:51:06] "GET /lab/1/ HTTP/1.1" 200 306
+[29/Dec/2018 13:51:19] "GET /lab/1/ HTTP/1.1" 200 306
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 13:51:02
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 13:51:27] "GET /lab/34/ HTTP/1.1" 200 2205
+[29/Dec/2018 14:01:56] "GET /lab/34/ HTTP/1.1" 200 2205
+Internal Server Error: /lab/
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/SGRNJ/Database/develop/lab/lab/views.py", line 13, in display
+    return render(request,'lab/display.html',{'projects':projects})
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/backends/django.py", line 68, in render
+    reraise(exc, self.backend)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/backends/django.py", line 89, in reraise
+    six.reraise(exc.__class__, new, sys.exc_info()[2])
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/loader_tags.py", line 154, in render
+    compiled_parent = self.get_parent(context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in get_parent
+    return self.find_template(parent, context)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/loader_tags.py", line 131, in find_template
+    template_name, skip=history,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/template/engine.py", line 148, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+TemplateDoesNotExist: base.html
+[29/Dec/2018 14:02:00] "GET /lab/ HTTP/1.1" 500 145148
+[29/Dec/2018 14:04:11] "GET /lab/ HTTP/1.1" 200 836
+[29/Dec/2018 14:04:35] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 14:04:50] "GET /admin/ HTTP/1.1" 200 6948
+Not Found: /
+[29/Dec/2018 14:04:52] "GET / HTTP/1.1" 404 2149
+[29/Dec/2018 14:04:56] "GET /admin/ HTTP/1.1" 200 6948
+Not Found: /alab
+[29/Dec/2018 14:04:57] "GET /alab HTTP/1.1" 404 2179
+[29/Dec/2018 14:05:00] "GET /lab/ HTTP/1.1" 200 6487
+[29/Dec/2018 14:05:11] "GET /lab/1/ HTTP/1.1" 200 306
+[29/Dec/2018 14:05:14] "GET /lab/2/ HTTP/1.1" 200 886
+[29/Dec/2018 14:05:21] "GET /lab/1/ HTTP/1.1" 200 306
+[29/Dec/2018 14:09:18] "GET /lab/ HTTP/1.1" 200 6559
+[29/Dec/2018 14:09:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+[29/Dec/2018 14:09:20] "GET /lab/ HTTP/1.1" 200 6559
+[29/Dec/2018 14:09:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+[29/Dec/2018 14:09:23] "GET /lab/ HTTP/1.1" 200 6559
+[29/Dec/2018 14:09:23] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+[29/Dec/2018 14:10:25] "GET /lab/ HTTP/1.1" 200 6559
+[29/Dec/2018 14:10:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+[29/Dec/2018 14:10:47] "GET /lab/ HTTP/1.1" 200 7365
+[29/Dec/2018 14:10:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+[29/Dec/2018 14:11:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+Not Found: /static
+[29/Dec/2018 14:11:35] "GET /static HTTP/1.1" 404 2185
+[29/Dec/2018 14:12:39] "GET /admin/ HTTP/1.1" 200 6948
+Not Found: /favicon.ico
+[29/Dec/2018 14:12:39] "GET /favicon.ico HTTP/1.1" 404 2200
+[29/Dec/2018 14:12:41] "GET /lab/ HTTP/1.1" 200 7365
+[29/Dec/2018 14:12:41] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+[29/Dec/2018 14:12:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+[29/Dec/2018 14:12:52] "GET /lab/ HTTP/1.1" 200 7365
+[29/Dec/2018 14:12:53] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 13:51:25
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 14:15:08] "GET /lab/ HTTP/1.1" 200 7365
+[29/Dec/2018 14:15:08] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+[29/Dec/2018 14:15:14] "GET /lab/ HTTP/1.1" 200 7365
+[29/Dec/2018 14:15:14] "GET /lab/ HTTP/1.1" 200 7365
+[29/Dec/2018 14:15:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+[29/Dec/2018 14:15:15] "GET /lab/1/ HTTP/1.1" 200 96
+[29/Dec/2018 14:15:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+[29/Dec/2018 14:18:28] "GET /lab/2/ HTTP/1.1" 200 676
+[29/Dec/2018 14:18:39] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 1707
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 14:15:03
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 14:24:18] "GET /lab/ HTTP/1.1" 200 7365
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/wsgiref/handlers.py", line 85, in run
+    self.result = application(self.environ, self.start_response)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 64, in __call__
+    return super(StaticFilesHandler, self).__call__(environ, start_response)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 157, in __call__
+    response = self.get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 54, in get_response
+    return self.serve(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 47, in serve
+    return serve(request, self.file_path(request.path), insecure=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 57, in __init__
+    "Your STATICFILES_DIRS setting is not a tuple or list; "
+ImproperlyConfigured: Your STATICFILES_DIRS setting is not a tuple or list; perhaps you forgot a trailing comma?
+[29/Dec/2018 14:24:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/wsgiref/handlers.py", line 85, in run
+    self.result = application(self.environ, self.start_response)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 64, in __call__
+    return super(StaticFilesHandler, self).__call__(environ, start_response)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 157, in __call__
+    response = self.get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 54, in get_response
+    return self.serve(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 47, in serve
+    return serve(request, self.file_path(request.path), insecure=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 57, in __init__
+    "Your STATICFILES_DIRS setting is not a tuple or list; "
+ImproperlyConfigured: Your STATICFILES_DIRS setting is not a tuple or list; perhaps you forgot a trailing comma?
+[29/Dec/2018 14:24:21] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 500 59
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 14:23:50
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 14:24:57] "GET /lab/ HTTP/1.1" 200 7365
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/wsgiref/handlers.py", line 85, in run
+    self.result = application(self.environ, self.start_response)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 64, in __call__
+    return super(StaticFilesHandler, self).__call__(environ, start_response)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 157, in __call__
+    response = self.get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 54, in get_response
+    return self.serve(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 47, in serve
+    return serve(request, self.file_path(request.path), insecure=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 57, in __init__
+    "Your STATICFILES_DIRS setting is not a tuple or list; "
+ImproperlyConfigured: Your STATICFILES_DIRS setting is not a tuple or list; perhaps you forgot a trailing comma?
+[29/Dec/2018 14:24:57] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/wsgiref/handlers.py", line 85, in run
+    self.result = application(self.environ, self.start_response)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 64, in __call__
+    return super(StaticFilesHandler, self).__call__(environ, start_response)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 157, in __call__
+    response = self.get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 54, in get_response
+    return self.serve(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/handlers.py", line 47, in serve
+    return serve(request, self.file_path(request.path), insecure=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py", line 57, in __init__
+    "Your STATICFILES_DIRS setting is not a tuple or list; "
+ImproperlyConfigured: Your STATICFILES_DIRS setting is not a tuple or list; perhaps you forgot a trailing comma?
+[29/Dec/2018 14:25:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 500 59
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 14:24:28
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+[29/Dec/2018 14:27:46] "GET /lab/ HTTP/1.1" 200 7365
+[29/Dec/2018 14:27:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+[29/Dec/2018 14:27:50] "GET /lab/ HTTP/1.1" 200 7365
+[29/Dec/2018 14:27:58] "GET /lab/1/ HTTP/1.1" 200 96
+[29/Dec/2018 14:28:11] "GET /lab/8/ HTTP/1.1" 200 1113
+[29/Dec/2018 14:28:18] "GET /lab/26 HTTP/1.1" 301 0
+[29/Dec/2018 14:28:18] "GET /lab/26/ HTTP/1.1" 200 419
+[29/Dec/2018 14:28:52] "GET /lab/ HTTP/1.1" 200 7855
+[29/Dec/2018 14:29:43] "GET /lab/ HTTP/1.1" 200 11215
+[29/Dec/2018 14:29:43] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Dec/2018 14:30:15] "GET /lab/ HTTP/1.1" 200 11215
+[29/Dec/2018 14:30:16] "GET /lab/ HTTP/1.1" 200 6007
+[29/Dec/2018 14:30:26] "GET /lab/1/ HTTP/1.1" 200 96
+[29/Dec/2018 14:30:28] "GET /lab/2/ HTTP/1.1" 200 676
+[29/Dec/2018 14:30:46] "GET /lab/28 HTTP/1.1" 301 0
+[29/Dec/2018 14:30:46] "GET /lab/28/ HTTP/1.1" 200 705
+[29/Dec/2018 14:30:54] "GET /lab/8/ HTTP/1.1" 200 1113
+[29/Dec/2018 14:32:11] "GET /lab/ HTTP/1.1" 200 6007
+[29/Dec/2018 14:32:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Dec/2018 14:32:12] "GET /lab/1/ HTTP/1.1" 200 283
+[29/Dec/2018 14:32:16] "GET /lab/2/ HTTP/1.1" 200 1055
+[29/Dec/2018 14:32:21] "GET /lab/9/ HTTP/1.1" 200 1067
+[29/Dec/2018 14:32:37] "GET /lab/9/ HTTP/1.1" 200 1067
+[29/Dec/2018 14:32:58] "GET /lab/8/ HTTP/1.1" 200 1540
+[29/Dec/2018 14:35:17] "GET /lab/ HTTP/1.1" 200 6007
+[29/Dec/2018 14:35:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Dec/2018 14:35:18] "GET /lab/ HTTP/1.1" 200 6007
+[29/Dec/2018 14:35:23] "GET /lab/1/ HTTP/1.1" 200 425
+[29/Dec/2018 14:35:49] "GET /lab/ HTTP/1.1" 200 6007
+[29/Dec/2018 14:35:50] "GET /lab/1/ HTTP/1.1" 200 454
+[29/Dec/2018 14:35:53] "GET /lab/5/ HTTP/1.1" 200 2258
+[29/Dec/2018 14:35:57] "GET /lab/9/ HTTP/1.1" 200 1419
+[29/Dec/2018 14:36:02] "GET /lab/6/ HTTP/1.1" 200 1208
+[29/Dec/2018 14:36:12] "GET /lab/2/ HTTP/1.1" 200 1406
+[29/Dec/2018 14:37:42] "GET /lab/ HTTP/1.1" 200 7202
+[29/Dec/2018 14:38:31] "GET /lab/8/ HTTP/1.1" 200 1994
+[29/Dec/2018 14:38:31] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Dec/2018 14:40:53] "GET /lab/ HTTP/1.1" 200 7130
+[29/Dec/2018 14:40:56] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/RD2018013_JHB_CF_report.html HTTP/1.1" 200 3651345
+[29/Dec/2018 14:40:56] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/0.QC/HMF7_Region.svg HTTP/1.1" 200 79095
+[29/Dec/2018 14:40:56] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/0.QC/HMF7_UMIcounts.svg HTTP/1.1" 200 155080
+[29/Dec/2018 14:40:56] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/0.QC/HMF7_downsampleSaturation.svg HTTP/1.1" 200 71150
+[29/Dec/2018 14:40:56] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/0.QC/FastQC_HMFR2.clean.png HTTP/1.1" 200 109261
+[29/Dec/2018 14:40:56] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/0.QC/HMF7_downsampleMedianGenes.svg HTTP/1.1" 200 70021
+[29/Dec/2018 14:40:56] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/0.QC/FastQC_HMFR2.raw.png HTTP/1.1" 200 122631
+[29/Dec/2018 14:40:56] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/0.QC/HMF7.biotype_pct.svg HTTP/1.1" 200 131281
+[29/Dec/2018 14:40:57] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/1.QC_mito/HMF7.Mitopercent.png HTTP/1.1" 200 30057
+[29/Dec/2018 14:40:57] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/2.Cluster/HMF7.corrplot.png HTTP/1.1" 200 17537
+[29/Dec/2018 14:40:57] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/2.Cluster/HMF7.PercentPerCell.png HTTP/1.1" 200 16335
+[29/Dec/2018 14:40:57] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/1.QC_mito/HMF7.QC_umapFeatureplot.svg HTTP/1.1" 200 528534
+[29/Dec/2018 14:40:57] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/3.RD/HMF7.PCA.png HTTP/1.1" 200 17522
+[29/Dec/2018 14:40:57] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/3.RD/HMF7.PCElbowPlot.png HTTP/1.1" 200 11151
+[29/Dec/2018 14:40:57] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/3.RD/HMF7.tsne.png HTTP/1.1" 200 48876
+[29/Dec/2018 14:40:57] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/3.RD/HMF7.umap.png HTTP/1.1" 200 24160
+[29/Dec/2018 14:40:57] "GET /media/SGRNJ/RandD/RD2018013/RD2018013_JHB_CF_report/src/1.QC_mito/HMF7.QC_tsneFeatureplot.svg HTTP/1.1" 200 540296
+[29/Dec/2018 14:41:05] "GET /lab/25 HTTP/1.1" 301 0
+[29/Dec/2018 14:41:05] "GET /lab/25/ HTTP/1.1" 200 876
+[29/Dec/2018 14:41:22] "GET /lab/8/ HTTP/1.1" 200 1994
+[29/Dec/2018 14:41:55] "GET /lab/22/ HTTP/1.1" 200 485
+[29/Dec/2018 14:41:55] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Dec/2018 14:42:01] "GET /lab/27/ HTTP/1.1" 200 3870
+[29/Dec/2018 14:42:20] "GET /lab/13 HTTP/1.1" 301 0
+[29/Dec/2018 14:42:20] "GET /lab/13/ HTTP/1.1" 200 2008
+[29/Dec/2018 14:42:43] "GET /lab/4/ HTTP/1.1" 200 1025
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/P2018008.report.html HTTP/1.1" 200 4585140
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/LCP01_Region.svg HTTP/1.1" 200 80643
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/LCP01_UMIcounts.svg HTTP/1.1" 200 135783
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/LCP01.biotype_pct.svg HTTP/1.1" 200 123896
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/LCP01_downsampleMedianGenes.svg HTTP/1.1" 200 75260
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/LCP01_downsampleSaturation.svg HTTP/1.1" 200 73825
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/FastQC_LCP02.raw.png HTTP/1.1" 200 139322
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/0.QC/FastQC_LCP02.clean.png HTTP/1.1" 200 120117
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/1.QC_mito/LCP01.Mitopercent.png HTTP/1.1" 200 29931
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/2.Cluster/LCP01.PercentPerCell.png HTTP/1.1" 200 16605
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/1.QC_mito/LCP01.QC_tsneFeatureplot.svg HTTP/1.1" 200 499702
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/2.Cluster/LCP01.corrplot.png HTTP/1.1" 200 18374
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/1.QC_mito/LCP01.QC_umapFeatureplot.svg HTTP/1.1" 200 501745
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/3.RD/LCP01.PCElbowPlot.png HTTP/1.1" 200 10597
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/3.RD/LCP01.PCA.png HTTP/1.1" 200 31402
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/3.RD/LCP01.tsne.png HTTP/1.1" 200 42623
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/3.RD/LCP01.umap.png HTTP/1.1" 200 29260
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/7.monocle/LCP01.trajectories_cluster.png HTTP/1.1" 200 24640
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.markergene_DOHeatmapplot.png HTTP/1.1" 200 19684
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/7.monocle/LCP01.Pseudotime_cluster.png HTTP/1.1" 200 27716
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.cluster_Heatmapplot.png HTTP/1.1" 200 12009
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.markergene_Dotplot.png HTTP/1.1" 200 22664
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.markergene_vlnplot1.png HTTP/1.1" 200 28539
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.top10markergene_DOHeatmapplot.png HTTP/1.1" 200 50355
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.markergene_umapFeatureplot1.png HTTP/1.1" 200 35666
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/5.Marker_Gene/LCP01.markergene_tsneFeatureplot1.png HTTP/1.1" 200 48455
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_GObar.svg HTTP/1.1" 200 193856
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_KEGGbar.svg HTTP/1.1" 200 155123
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_Reactomedot.svg HTTP/1.1" 200 183696
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_Reactomebar.svg HTTP/1.1" 200 162623
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_GOdot.svg HTTP/1.1" 200 192740
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/LCP01_cluster1_KEGGdot.svg HTTP/1.1" 200 172652
+[29/Dec/2018 14:42:52] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/6.enrich/hsa00190_pathway.png HTTP/1.1" 200 105741
+[29/Dec/2018 14:42:53] "GET /media/SGRNJ/PROJ1/P2018008/P2018008_report/src/2.Cluster/LCP01.Hcluster.svg HTTP/1.1" 200 2610758
+[29/Dec/2018 14:43:48] "GET /lab/1/ HTTP/1.1" 200 454
+[29/Dec/2018 14:43:52] "GET /lab/8/ HTTP/1.1" 200 1994
+[29/Dec/2018 14:44:09] "GET /lab/26/ HTTP/1.1" 200 997
+[29/Dec/2018 14:51:04] "GET /lab/1/ HTTP/1.1" 200 454
+[29/Dec/2018 14:51:04] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Dec/2018 14:51:10] "GET /lab/8/ HTTP/1.1" 200 1994
+[29/Dec/2018 14:52:09] "GET /lab/8/ HTTP/1.1" 200 1994
+[29/Dec/2018 14:52:20] "GET /lab/5/ HTTP/1.1" 200 2258
+[29/Dec/2018 14:53:14] "GET /lab/5/ HTTP/1.1" 200 2258
+[29/Dec/2018 14:53:16] "GET /lab/ HTTP/1.1" 200 7971
+[29/Dec/2018 14:53:22] "GET /lab/5/ HTTP/1.1" 200 2258
+[29/Dec/2018 14:53:26] "GET /lab/33/ HTTP/1.1" 200 12279
+[29/Dec/2018 14:53:37] "GET /lab/21 HTTP/1.1" 301 0
+[29/Dec/2018 14:53:37] "GET /lab/21/ HTTP/1.1" 200 421
+[29/Dec/2018 14:53:40] "GET /lab/13/ HTTP/1.1" 200 2008
+[29/Dec/2018 14:53:44] "GET /lab/2/ HTTP/1.1" 200 1406
+[29/Dec/2018 14:53:47] "GET /lab/7/ HTTP/1.1" 200 1500
+[29/Dec/2018 14:53:51] "GET /lab/34/ HTTP/1.1" 200 3452
+[29/Dec/2018 14:53:54] "GET /lab/32/ HTTP/1.1" 200 1230
+[29/Dec/2018 14:54:05] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 14:54:05] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 14:54:08] "GET /admin/lab/sample/ HTTP/1.1" 200 64036
+[29/Dec/2018 14:54:08] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[29/Dec/2018 14:54:14] "GET /admin/lab/sample/?p=1 HTTP/1.1" 200 66756
+[29/Dec/2018 14:54:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+Not Found: /
+[29/Dec/2018 14:54:22] "GET / HTTP/1.1" 404 2149
+[29/Dec/2018 14:54:29] "GET /lab/ HTTP/1.1" 200 7971
+[29/Dec/2018 14:54:43] "GET /lab/12 HTTP/1.1" 301 0
+[29/Dec/2018 14:54:43] "GET /lab/12/ HTTP/1.1" 200 2352
+[29/Dec/2018 14:54:57] "GET /lab/12/ HTTP/1.1" 200 2412
+[29/Dec/2018 14:56:22] "GET /lab/12/ HTTP/1.1" 200 3520
+[29/Dec/2018 14:56:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Dec/2018 14:57:02] "GET /lab/12/ HTTP/1.1" 200 3520
+[29/Dec/2018 14:57:03] "GET /lab/12/ HTTP/1.1" 200 3812
+[29/Dec/2018 14:57:06] "GET /lab/5/ HTTP/1.1" 200 3731
+[29/Dec/2018 14:57:11] "GET /lab/32/ HTTP/1.1" 200 2124
+[29/Dec/2018 14:57:32] "GET /lab/1/ HTTP/1.1" 200 583
+[29/Dec/2018 14:59:03] "GET /lab/ HTTP/1.1" 200 7971
+[29/Dec/2018 14:59:04] "GET /lab/1/ HTTP/1.1" 200 714
+[29/Dec/2018 14:59:07] "GET /lab/6/ HTTP/1.1" 200 2065
+[29/Dec/2018 14:59:25] "GET /lab/6/ HTTP/1.1" 200 2065
+[29/Dec/2018 14:59:26] "GET /lab/6/ HTTP/1.1" 200 2068
+[29/Dec/2018 14:59:58] "GET /lab/27/ HTTP/1.1" 200 6842
+[29/Dec/2018 15:00:02] "GET /lab/32/ HTTP/1.1" 200 2258
+[29/Dec/2018 15:00:27] "GET /lab/8/ HTTP/1.1" 200 3416
+[29/Dec/2018 15:00:37] "GET /lab/8/ HTTP/1.1" 200 3416
+[29/Dec/2018 15:00:54] "GET /lab/8/ HTTP/1.1" 200 3416
+[29/Dec/2018 15:00:56] "GET /lab/5/ HTTP/1.1" 200 3866
+[29/Dec/2018 15:01:32] "GET /lab/1/ HTTP/1.1" 200 717
+[29/Dec/2018 15:01:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Dec/2018 15:03:14] "GET /lab/1/ HTTP/1.1" 200 717
+[29/Dec/2018 15:03:18] "GET /lab/1/ HTTP/1.1" 200 717
+[29/Dec/2018 15:04:05] "GET /lab/8/ HTTP/1.1" 200 3416
+[29/Dec/2018 15:05:26] "GET /lab/8/ HTTP/1.1" 200 3430
+[29/Dec/2018 15:05:35] "GET /lab/1/ HTTP/1.1" 200 731
+[29/Dec/2018 15:06:25] "GET /lab/1/ HTTP/1.1" 200 747
+[29/Dec/2018 15:06:29] "GET /lab/6/ HTTP/1.1" 200 2098
+[29/Dec/2018 15:06:35] "GET /lab/5/ HTTP/1.1" 200 3896
+[29/Dec/2018 15:07:15] "GET /lab/5/ HTTP/1.1" 200 4186
+[29/Dec/2018 15:07:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Dec/2018 15:07:33] "GET /lab/29/ HTTP/1.1" 200 2444
+[29/Dec/2018 15:07:46] "GET /lab/29/ HTTP/1.1" 200 2444
+[29/Dec/2018 15:08:14] "GET /lab/33/ HTTP/1.1" 200 24615
+[29/Dec/2018 15:09:54] "GET /lab/33/ HTTP/1.1" 200 24615
+[29/Dec/2018 15:10:01] "GET /lab/27/ HTTP/1.1" 200 7404
