@@ -1363,3 +1363,157 @@ Not Found: /
 [29/Dec/2018 15:08:14] "GET /lab/33/ HTTP/1.1" 200 24615
 [29/Dec/2018 15:09:54] "GET /lab/33/ HTTP/1.1" 200 24615
 [29/Dec/2018 15:10:01] "GET /lab/27/ HTTP/1.1" 200 7404
+[29/Dec/2018 15:19:46] "GET /lab/1/ HTTP/1.1" 200 773
+[29/Dec/2018 15:19:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Dec/2018 15:19:50] "GET /lab/8/ HTTP/1.1" 200 3692
+[29/Dec/2018 15:19:54] "GET /lab/2/ HTTP/1.1" 200 2761
+[29/Dec/2018 15:20:22] "GET /lab/2/ HTTP/1.1" 200 2761
+[29/Dec/2018 15:20:43] "GET /lab/1/ HTTP/1.1" 200 773
+[29/Dec/2018 15:21:17] "GET /lab/1/ HTTP/1.1" 200 763
+[29/Dec/2018 15:21:32] "GET /lab/1/ HTTP/1.1" 200 0
+[29/Dec/2018 15:21:35] "GET /lab/1/ HTTP/1.1" 200 743
+[29/Dec/2018 15:21:36] "GET /lab/1/ HTTP/1.1" 200 743
+[29/Dec/2018 15:21:37] "GET /lab/1/ HTTP/1.1" 200 743
+[29/Dec/2018 15:21:38] "GET /lab/2/ HTTP/1.1" 200 2731
+[29/Dec/2018 15:23:16] "GET /lab/2/ HTTP/1.1" 200 2741
+[29/Dec/2018 15:23:34] "GET /lab/3/ HTTP/1.1" 200 3056
+[29/Dec/2018 15:23:41] "GET /lab/22/ HTTP/1.1" 200 784
+[29/Dec/2018 15:24:02] "GET /lab/ HTTP/1.1" 200 7985
+[29/Dec/2018 15:24:03] "GET /lab/23 HTTP/1.1" 301 0
+[29/Dec/2018 15:24:03] "GET /lab/23/ HTTP/1.1" 200 787
+[29/Dec/2018 15:24:03] "GET /lab/23/ HTTP/1.1" 200 787
+[29/Dec/2018 15:24:06] "GET /lab/29/ HTTP/1.1" 200 2451
+[29/Dec/2018 15:25:03] "GET /lab/3/ HTTP/1.1" 200 3083
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 14:27:45
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fe62aec3140>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/SGRNJ/Database/develop/lab/lab_project/urls.py", line 25, in <module>
+    url(r'^$', main_site),
+NameError: name 'main_site' is not defined
+[29/Dec/2018 15:31:24] "GET /lab/ HTTP/1.1" 200 7985
+[29/Dec/2018 15:31:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/SGRNJ/Database/develop/lab/lab/views.py", line 9, in main_site
+    return redirect("/lab")
+NameError: global name 'redirect' is not defined
+[29/Dec/2018 15:31:25] "GET / HTTP/1.1" 500 65661
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2018 - 15:31:21
+Django version 1.11.10, using settings 'lab_project.settings'
+Starting development server at http://0:88/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fe47a877140>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/Public/Software/conda/miniconda/envs/django1.11/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/SGRNJ/Database/develop/lab/lab_project/urls.py", line 19, in <module>
+    from lab.views import *
+  File "/SGRNJ/Database/develop/lab/lab/views.py", line 5, in <module>
+    from django.http import HttpResponse,redirect
+ImportError: cannot import name redirect
+[29/Dec/2018 15:33:15] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 15:33:18] "GET / HTTP/1.1" 302 0
+[29/Dec/2018 15:33:18] "GET /lab/ HTTP/1.1" 200 7985
+[29/Dec/2018 15:33:22] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 15:33:23] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 15:33:25] "GET / HTTP/1.1" 302 0
+[29/Dec/2018 15:33:25] "GET /lab/ HTTP/1.1" 200 7985
+[29/Dec/2018 15:33:29] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 15:33:31] "GET / HTTP/1.1" 302 0
+[29/Dec/2018 15:33:32] "GET /lab/ HTTP/1.1" 200 7985
+[29/Dec/2018 15:33:39] "GET /lab/1/ HTTP/1.1" 200 780
+[29/Dec/2018 15:33:43] "GET /lab/3/ HTTP/1.1" 200 3083
+[29/Dec/2018 15:33:50] "GET /lab/32/ HTTP/1.1" 200 2453
+[29/Dec/2018 15:34:15] "GET /lab/33/ HTTP/1.1" 200 24622
+[29/Dec/2018 15:34:48] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 15:34:51] "GET / HTTP/1.1" 302 0
+[29/Dec/2018 15:34:51] "GET /lab/ HTTP/1.1" 200 7985
+[29/Dec/2018 15:34:53] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 15:34:55] "GET / HTTP/1.1" 302 0
+[29/Dec/2018 15:34:56] "GET /lab/ HTTP/1.1" 200 7985
+[29/Dec/2018 15:34:57] "GET /lab/8/ HTTP/1.1" 200 3699
+[29/Dec/2018 15:35:22] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 15:35:24] "GET / HTTP/1.1" 302 0
+[29/Dec/2018 15:35:24] "GET /lab/ HTTP/1.1" 200 7985
+[29/Dec/2018 15:35:26] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 15:35:29] "GET /admin/paper/paper/ HTTP/1.1" 200 5928
+[29/Dec/2018 15:35:29] "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[29/Dec/2018 15:35:35] "GET /admin/ HTTP/1.1" 200 6948
+[29/Dec/2018 15:36:06] "GET /admin/logout/ HTTP/1.1" 200 1019
+[29/Dec/2018 15:36:08] "GET / HTTP/1.1" 302 0
+[29/Dec/2018 15:36:09] "GET /lab/ HTTP/1.1" 200 7985
+[29/Dec/2018 15:36:11] "GET /admin/logout/ HTTP/1.1" 302 0
+[29/Dec/2018 15:36:11] "GET /admin/ HTTP/1.1" 302 0
+[29/Dec/2018 15:36:11] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1660
+[29/Dec/2018 15:36:13] "GET / HTTP/1.1" 302 0
+[29/Dec/2018 15:36:13] "GET /lab/ HTTP/1.1" 200 7985
+[29/Dec/2018 15:38:42] "GET /lab/29/ HTTP/1.1" 200 2451

@@ -22,4 +22,5 @@ import settings
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^lab/', include('lab.urls')),
+    url(r'^$', main_site),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
