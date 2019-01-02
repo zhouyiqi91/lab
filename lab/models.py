@@ -56,6 +56,7 @@ class Project(models.Model):
 
 
 
+
     def __str__(self):
         return (self.name+" ( "+self.p_id+" )")
 
@@ -104,6 +105,12 @@ class Sample(models.Model):
             return ""
     view_link.short_description = 'Report'
     view_link.allow_tags = True
+
+    def view_AATI(self):
+        if self.AATI:
+            return "<a href=/media/%s>View</a>" % self.AATI
+        else:
+            return ""  
 
     def p_id(self):
         return self.project.p_id

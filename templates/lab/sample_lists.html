@@ -34,7 +34,7 @@
             <td>{{ sample.library_type }}</td>
             <td>{{ sample.library_id }}</td>
             <td>{{ sample.description }}</td>
-            <td>{{ sample.AATI }}</td>
+            <td>{{ sample.view_AATI|safe }}</td>
             <td>{{ sample.view_link }}</td>
         </tr>
         {% endfor %}
