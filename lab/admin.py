@@ -139,7 +139,7 @@ class SampleAdmin(admin.ModelAdmin):
                         library = library_attr[index].strip()
                     if des_len > index:
                         des = des_attr[index].strip()
-                    Sample.objects.create(name = name_item,project = obj.project,created_by = created_by,species=obj.species,sample_date = obj.sample_date,description = des,AATI = obj.AATI,report=obj.report,library_id=library,library_type=obj.library_type,need_analysis = obj.need_analysis)
+                    Sample.objects.create(name = name_item,project = obj.project,created_by = created_by,species=obj.species,sample_date = obj.sample_date,description = des,AATI = obj.AATI,report=obj.report,library_id=library,library_type=obj.library_type,xiaji=obj.xiaji,fenxi=obj.fenxi)
                 index += 1
         else:
             obj.save()
