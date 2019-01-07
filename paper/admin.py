@@ -6,16 +6,20 @@ from paper.models import *
 
 # Register your models here.
 class PaperAdmin(admin.ModelAdmin):
-    list_display = ('name','paper_staff','date','submit1_already','submit2_already')
+    list_display = ('name','paper_staff','date','submit1_already','submit2_already','final_already')
     list_filter = (('date'),)
 
     def save_model(self, request, obj, form, change):
         obj.submit1_already = False
         obj.submit2_already = False
+        obj.final_already = False
+
         if obj.submit1:
             obj.submit1_already = True
         if obj.submit2:
             obj.submit2_already = True
+        if obj.final_submit:
+            obj.final_already = True
         obj.save()
 
 admin.site.register(Paper,PaperAdmin)

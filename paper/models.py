@@ -12,8 +12,11 @@ class Paper(models.Model):
     date = models.DateField(null=True)
     submit1 = models.FileField(upload_to="SGRNJ/Database/test/1.11/lab_project/media/paper/submit",blank=True)
     submit2 = models.FileField(upload_to="SGRNJ/Database/test/1.11/lab_project/media/paper/submit",blank=True)
+    final_submit = models.FileField(upload_to="SGRNJ/Database/test/1.11/lab_project/media/paper/submit",blank=True)
     submit1_already = models.BooleanField(verbose_name="submit_1",default=False,editable=False)
     submit2_already = models.BooleanField(verbose_name="submit_2",default=False,editable=False)
+    final_already = models.BooleanField(verbose_name="final",default=False,editable=False)
+    
 
     def paper_staff(self):
         return ",".join([p.__str__() for p in self.paper_people.all()])
