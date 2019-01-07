@@ -68,6 +68,7 @@ class Sample(models.Model):
     ("scRNA_10X","scRNA_10X"),
     ("RNA_Seq","RNA_Seq"),
     ("WES","WES"),
+    ("Methylation","Methylation"),
     )
 
     species_choice = (
