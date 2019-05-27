@@ -31,6 +31,7 @@ class Project(models.Model):
     description = models.TextField(max_length=300,blank=True)
     p_id = models.CharField(max_length=30,blank=True)
     created_by = models.ForeignKey(User,editable=False,null=True,blank=True)
+    root_dir = models.CharField(max_length=255,blank=True)
     report = models.CharField(max_length=255,blank=True)
 
     def lab_staff(self):
@@ -53,6 +54,15 @@ class Project(models.Model):
             return ""
     view_link.short_description = 'Report'
     view_link.allow_tags = True
+
+    def metric(self):
+        if self.root_dir:
+            return "<a href=/media%s/metrics/summary.html target='_blank'>View</a>" % self.root_dir
+        else:
+            return ""
+    metric.allow_tags = True
+
+
 
 
 

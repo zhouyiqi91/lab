@@ -24,4 +24,8 @@ def sample_lists(request,project_uid):
     """
     return render(request,'lab/sample_lists.html',{'samples':samples,'project':project})
 
+
+def metric(request,project_uid):
+    project = Project.objects.get(id=project_uid)
+    metric = project.metric_path
 # Create your views here.

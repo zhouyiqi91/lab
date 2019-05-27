@@ -37,7 +37,7 @@ class ProjectAdmin(admin.ModelAdmin):
     export_as_csv.short_description = "输出选中项为csv"
 
     #exclude = ('project_id',)   
-    list_display = ('name','p_id','project_type','samples','lab_staff','project_date','bioinfo_staff','view_link')
+    list_display = ('name','p_id','project_type','samples','lab_staff','project_date','bioinfo_staff','metric','view_link')
     search_fields = ['name','project_type','project_date','description']
     actions = ["export_as_csv"]
     # 只能看到自己项目
